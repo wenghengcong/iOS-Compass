@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
 import {
-  Button
+  Button,
+  Card,
+  Icon,
 } from 'antd';
 
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import styles from './Home.less';
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="App">
@@ -18,4 +20,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
