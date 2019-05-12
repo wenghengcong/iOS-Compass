@@ -1,0 +1,34 @@
+[
+  {
+    "url": "github.com",
+    "desc": "代码仓库",
+    "logo": "",
+    "style": 0,
+    "category": "dev",
+    "common": true
+  },
+  {
+    "url": "baidu.com",
+    "desc": "百度搜索",
+    "logo": "",
+    "style": 0,
+    "category": "dev",
+    "common": false
+  },
+  {
+    "url": "google.com",
+    "desc": "谷歌",
+    "logo": "",
+    "style": 0,
+    "category": "dev",
+    "common": false
+  },
+  {
+    "url": "apple.com",
+    "desc": "苹果",
+    "logo": "",
+    "style": 0,
+    "category": "dev",
+    "common": true
+  }
+]
