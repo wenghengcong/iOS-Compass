@@ -7,6 +7,7 @@ import {
   Menu,
   List,
   Layout,
+  Anchor
 } from 'antd';
 
 
@@ -16,11 +17,13 @@ import styles from './Home.less';
 
 import categories from "../Data/category.json";
 import websites from "../Data/websites.json";
+import {Link, withRouter} from 'react-router-dom';
 
 const SubMenu = Menu.SubMenu;
 const {
   Header, Footer, Sider, Content,
 } = Layout;
+
 
 class Home extends Component {
 
@@ -29,7 +32,7 @@ class Home extends Component {
     allCategory: [],    // 分类
     commonSites: [],     // 常用网站
     categorySites: [],   // 分类网站
-    collapsed: false,
+
   }
 
   componentDidMount() {
@@ -50,29 +53,29 @@ class Home extends Component {
     });
   }
 
-  toggleCollapsed = () => {
-    this.setState({
-      collapsed: !this.state.collapsed,
-    });
+  handleClickMenu = ({item, key, keyPath}) => {
+    console.log('click', item);
+    this.scrollToAnchor(key);
+  }
+
+  scrollToAnchor = (anchorName) => {
+    if (anchorName) {
+      // 找到锚点
+      let anchorElement = document.getElementById(anchorName);
+      // 如果对应id的锚点存在，就跳转到锚点
+      if(anchorElement) { anchorElement.scrollIntoView(); }
+    }
   }
 
   render() {
+
     const commonCard = [];
-    const categoryCard = [];
+    const categoryCards = [];
 
     const commonWebsites = this.state.commonSites;
     if (commonWebsites.length > 0) {
       commonCard.push(
         commonWebsites.map((item) => {
-          return <WebCard web={item}> </WebCard>
-        })
-      );
-    }
-
-    const cateWebsites = this.state.categorySites;
-    if (cateWebsites.length > 0) {
-      categoryCard.push(
-        cateWebsites.map((item) => {
           return <WebCard web={item}> </WebCard>
         })
       );
@@ -91,6 +94,31 @@ class Home extends Component {
       );
     }
 
+    const cateWebsites = this.state.categorySites;
+    if (cateWebsites.length > 0) {
+      allCategory.map((item) => {
+        const currentCateWebs = cateWebsites.filter(web => web.category === item.name);
+        const currentCateCard = <div id={item.name}>
+          <Card
+            title={item.name} className={styles.categoryCard}>
+            <List
+              grid={{
+                gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 6, xxl: 3,
+              }}
+              dataSource={currentCateWebs}
+              size='small'
+              renderItem={item => (
+                <List.Item>
+                  <WebCard web={item}> </WebCard>
+                </List.Item>
+              )}
+            />
+          </Card>
+        </div>
+
+        categoryCards.push(currentCateCard);
+      });
+    }
 
     return (
       <div>
@@ -99,31 +127,24 @@ class Home extends Component {
                  theme='dark'
                  width={150}
           >
-            <Menu className={styles.menu} theme="dark" mode="inline" defaultSelectedKeys={['4']}>
+            <Menu className={styles.menu}
+                  theme="dark"
+                  mode="inline"
+              // defaultSelectedKeys={['4']}
+                  onClick={this.handleClickMenu}
+            >
               {menus}
             </Menu>
           </Sider>
-          <Layout className={styles.container} >
+          <Layout className={styles.cotainer}>
             {/*<Header>Header</Header>*/}
-            <Content>
-              <Card className={styles.backCard}>
-                <div>分类</div>
-                <List
-                  grid={{
-                    gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 6, xxl: 3,
-                  }}
-                  dataSource={cateWebsites}
-                  size='small'
-                  renderItem={item => (
-                    <List.Item>
-                      <WebCard web={item}> </WebCard>
-                    </List.Item>
-                  )}
-                />
-              </Card>
+            <Content
+              className={styles.webContainer}
+            >
+              {categoryCards}
             </Content>
             <Footer style={{textAlign: 'center'}}>
-              Ant Design ©2018 Created by Ant UED
+              Luci Design ©2019 Created by WengHengcong
             </Footer>
           </Layout>
         </Layout>

@@ -8,27 +8,36 @@
   position: fixed;
   left: 0;
   width: 150px;
+
+  // 菜单部分
+  .menu {
+    width: @sider-width;
+  }
 }
+
+
 
 // 右边内容显示区
-.container {
+.cotainer {
   margin-left: @sider-width;
-}
 
-.menu {
-  width: @sider-width;
-}
+  // 网页导航区域
+  .webContainer {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 
-.backCard {
-  width: auto;
-  background-color: #f9f9f9;
-  margin-bottom: 10px;
-}
+    // 常用网址导航区域
+    .commonWeb {
 
-.commonWeb {
+    }
 
-}
-
-.cateWeb {
-  display: block;
+    // 分类导航视图区域
+    .categoryCard {
+      border-radius: 3px;
+      width: auto;
+      //background-color: #f9f9f9;
+      margin-bottom: 15px;
+    }
+  }
 }

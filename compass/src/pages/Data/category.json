@@ -8,5 +8,15 @@
     "name": "设计",
     "icon": "",
     "child": []
+  },
+  {
+    "name": "UI",
+    "icon": "",
+    "child": []
+  },
+  {
+    "name": "产品",
+    "icon": "",
+    "child": []
   }
 ]
