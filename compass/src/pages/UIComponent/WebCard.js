@@ -63,9 +63,9 @@ class WebCard extends PureComponent {
           event.preventDefault();
           window.open(web.url);
         }}>
-          <Avatar className={styles.cardAvatar} src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
-          <a className={styles.title}>{web.title}</a>
-          <a className={styles.desc}>{web.description}</a>
+          <Avatar className={styles.normalCardAvatar} src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
+          <a className={styles.normalTitle}>{web.title}</a>
+          <a className={styles.normalDesc}>{web.description}</a>
         </Link>
       </div>
     }
@@ -112,8 +112,8 @@ class WebCard extends PureComponent {
           event.preventDefault();
           window.open(web.url);
         }}>
-          <Avatar className={styles.cardAvatar} src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
-          <a className={styles.title}>{web.title}</a>
+          <Avatar className={styles.hoverCardAvatar} src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
+          <a className={styles.hoverTitle}>{web.title}</a>
           {/*<a className={styles.desc}>{web.description}</a>*/}
         </Link>
         <span className={styles.hoverUrlContainer}>{linkButton}</span>

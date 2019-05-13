@@ -40,10 +40,57 @@
   }
 }
 
-@text-left: 40px;
+@normal-text-left: 45px;
 
 // 头像区域
-.cardAvatar {
+.normalCardAvatar {
+  margin-top: -5px;
+  margin-left: -5px;
+  width: 48px;
+  height: 48px;
+  border-radius: 45px;
+}
+
+.normalTitle {
+  display: block;
+  margin-top: -47px;
+  margin-left: @normal-text-left;
+  height: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 100%;
+  color: @heading-color;
+  &:hover {
+    color: @heading-color;
+  }
+}
+
+// 描述
+.normalDesc {
+  // 多行文本溢出
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+
+  display: block;
+  margin-left: @normal-text-left;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 300;
+
+  height: 35px;
+  color: @text-color-secondary;
+  //前面加&
+  &:hover {
+    color: @text-color-secondary;
+  }
+}
+
+@hover-text-left: 40px;
+
+// 头像区域
+.hoverCardAvatar {
   margin-top: -7px;
   margin-left: -7px;
   width: 40px;
@@ -51,10 +98,10 @@
   border-radius: 35px;
 }
 
-.title {
+.hoverTitle {
   display: block;
   margin-top: -38px;
-  margin-left: @text-left;
+  margin-left: @hover-text-left;
   height: 10px;
   font-size: 16px;
   font-weight: 400;
@@ -68,7 +115,7 @@
 // 描述
 .desc {
   display: block;
-  margin-left: @text-left;
+  margin-left: @hover-text-left;
   margin-top: 13px;
   font-size: 12px;
   height: 25px;
