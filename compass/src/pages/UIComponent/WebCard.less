@@ -1,0 +1,77 @@
+@import "~antd/lib/style/themes/default.less";
+
+//.card {
+//  width: 180px;
+//  height: 70px;
+//}
+//
+//.avatar {
+//
+//}
+//
+//.title {
+//
+//}
+//
+//.desc {
+//
+//}
+
+.card {
+  //margin-top: -6px;
+  border-radius: 5px;
+  width: 160px;
+  height: 60px;
+  :global {
+    //.ant-card-meta-title {
+    //  //margin-bottom: 5px;
+    //  & > a {
+    //    font-size: 14px;
+    //    display: inline-block;
+    //    max-width: 100%;
+    //    color: @heading-color;
+    //  }
+    //}
+
+    .ant-card-body:hover {
+      .ant-card-meta-title > a {
+        color: @primary-color;
+      }
+    }
+  }
+}
+
+@text-left: 40px;
+
+.title {
+  display: block;
+  margin-top: -35px;
+  margin-left: @text-left;
+  height: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 100%;
+  color: @heading-color;
+}
+
+.desc {
+  display: block;
+  margin-left: @text-left;
+  margin-top: 13px;
+  font-size: 12px;
+  height: 25px;
+  color: @text-color-secondary;
+}
+
+.cardAvatar {
+  margin-top: -7px;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+}
+
+:global {
+  .ant-list .ant-list-item-content-single {
+    max-width: 100%;
+  }
+}
