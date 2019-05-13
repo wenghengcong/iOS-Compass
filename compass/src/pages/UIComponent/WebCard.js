@@ -53,6 +53,10 @@ class WebCard extends PureComponent {
   render() {
     const web = this.props.web;
     const hover = this.state.hover;
+    const hasLinkUrl = web.cn_url ? true : ((web.en_url) ? true: ((web.gb_url) ? true : false));
+    // 只有有三个其中之一的外链，以及鼠标在上面时，才显示
+    const showHoverUI = hover && hasLinkUrl;
+
     const normalUI = function () {
       return <div>
         <Link to={web.url} target="_blank" onClick={(event) => {
@@ -68,17 +72,6 @@ class WebCard extends PureComponent {
 
     const hoverUI = function () {
       const linkButton = [];
-      if (web.en_url) {
-        linkButton.push(<Link key={web.cn_url} to={web.cn_url} target="_blank" onClick={(event) => {
-            if (hover) {
-              event.preventDefault();
-              window.open(web.cn_url);
-            }
-          }}>
-            <Button key={web.cn_url} className={styles.hoverUrlButton} type='primary'>中文</Button>
-          </Link>
-        )
-      }
 
       if (web.en_url) {
         linkButton.push(<Link key={web.en_url} to={web.en_url} target="_blank" onClick={(event) => {
@@ -87,8 +80,20 @@ class WebCard extends PureComponent {
             window.open(web.en_url);
           }
         }}>
-          <Button key={web.en_url} className={styles.hoverUrlButton} type='primary'>英文</Button>
+          <Button key={web.en_url} className={styles.hoverButton} type='primary'>英文</Button>
         </Link>)
+      }
+
+      if (web.cn_url) {
+        linkButton.push(<Link key={web.cn_url} to={web.cn_url} target="_blank" onClick={(event) => {
+            if (hover) {
+              event.preventDefault();
+              window.open(web.cn_url);
+            }
+          }}>
+            <Button key={web.cn_url} className={styles.hoverButton} type='primary'>中文</Button>
+          </Link>
+        )
       }
 
       if (web.gb_url) {
@@ -98,7 +103,7 @@ class WebCard extends PureComponent {
             window.open(web.gb_url);
           }
         }}>
-          <Button key={web.gb_url} className={styles.hoverUrlButton} type='primary'>GitHub</Button>
+          <Button key={web.gb_url} className={styles.hoverButton} type='primary'>GitHub</Button>
         </Link>)
       }
 
@@ -109,12 +114,13 @@ class WebCard extends PureComponent {
         }}>
           <Avatar className={styles.cardAvatar} src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
           <a className={styles.title}>{web.title}</a>
+          {/*<a className={styles.desc}>{web.description}</a>*/}
         </Link>
         <span className={styles.hoverUrlContainer}>{linkButton}</span>
       </div>
     }
 
-    var showUI = hover ? hoverUI() : normalUI();
+    var showUI = showHoverUI ? hoverUI() : normalUI();
     return (
       <div>
         <Card

@@ -20,8 +20,8 @@
 .card {
   //margin-top: -6px;
   border-radius: 5px;
-  width: 160px;
-  height: 70px;
+  width: 170px;
+  height: 75px;
   :global {
     //.ant-card-meta-title {
     //  //margin-bottom: 5px;
@@ -40,23 +40,23 @@
   }
 }
 
-@text-left: 35px;
+@text-left: 40px;
 
 // 头像区域
 .cardAvatar {
   margin-top: -7px;
   margin-left: -7px;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border-radius: 35px;
 }
 
 .title {
   display: block;
-  margin-top: -35px;
+  margin-top: -38px;
   margin-left: @text-left;
   height: 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   max-width: 100%;
   color: @heading-color;
@@ -81,19 +81,22 @@
 
 // 链接按钮内容区
 .hoverUrlContainer {
-  display: block;
-  margin-top: 25px;
-  width: max-content;
-  margin-left: -5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 30px;
+  margin-left: -3px;
 }
 
 // 链接按钮
-.hoverUrlButton {
+.hoverButton {
   padding-left: 5px;
   padding-right: 5px;
-  margin-left: 3px;
-  width: 45px;
-  height: 20px;
+  margin-right: 3px;
+  width: 47px;
+  height: 18px;
   font-size: 10px;
 }
 
