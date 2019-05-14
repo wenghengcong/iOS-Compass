@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/iOS-Compass/static/css/main.580d9024.chunk.css",
+    "main.js": "/iOS-Compass/static/js/main.5ed9355d.chunk.js",
+    "main.js.map": "/iOS-Compass/static/js/main.5ed9355d.chunk.js.map",
+    "runtime~main.js": "/iOS-Compass/static/js/runtime~main.cd48d0fe.js",
+    "runtime~main.js.map": "/iOS-Compass/static/js/runtime~main.cd48d0fe.js.map",
+    "static/css/2.7acdbda5.chunk.css": "/iOS-Compass/static/css/2.7acdbda5.chunk.css",
+    "static/js/2.d2ae2cb0.chunk.js": "/iOS-Compass/static/js/2.d2ae2cb0.chunk.js",
+    "static/js/2.d2ae2cb0.chunk.js.map": "/iOS-Compass/static/js/2.d2ae2cb0.chunk.js.map",
+    "index.html": "/iOS-Compass/index.html",
+    "precache-manifest.f4632ac9a4e6dbc03d309cb9cf9f9dd2.js": "/iOS-Compass/precache-manifest.f4632ac9a4e6dbc03d309cb9cf9f9dd2.js",
+    "service-worker.js": "/iOS-Compass/service-worker.js",
+    "static/css/2.7acdbda5.chunk.css.map": "/iOS-Compass/static/css/2.7acdbda5.chunk.css.map",
+    "static/css/main.580d9024.chunk.css.map": "/iOS-Compass/static/css/main.580d9024.chunk.css.map",
+    "static/media/logo.svg": "/iOS-Compass/static/media/logo.5d5d9eef.svg"
+  }
+}
