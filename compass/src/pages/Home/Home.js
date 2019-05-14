@@ -18,9 +18,8 @@ import WebCommonCard from '../UIComponent/WebCommonCard';
 
 import styles from './Home.less';
 
-import categories from "../../assets/data/category.json";
-import websites from "../../assets/data/websites.json";
-import {Link, withRouter} from 'react-router-dom';
+//import websites from "%PUBLIC_URL%/data/websites.json";
+//import {Link, withRouter} from 'react-router-dom';
 
 const SubMenu = Menu.SubMenu;
 const {
@@ -39,11 +38,28 @@ class Home extends Component {
   }
 
   componentDidMount() {
-
+    const catURL =  process.env.PUBLIC_URL + '/data/category.json';
+    fetch(catURL)
+    // We get the API response and receive data in JSON format...
+      .then(response => response.json())
+      // ...then we update the users state
+      .then(data =>
+        this.setState({
+          isLoading: false,
+        })
+      )
+      // Catch any errors we hit and update the app
+      .catch(error =>
+        this.setState({ error, isLoading: false })
+      );
     this.getWebSites();
   }
 
   getWebSites = () => {
+    //test
+    const websites = [];
+    const categories = [];
+
     const all = websites;
     const common = all.filter((web) => web.common === true);
     const cate = all.filter((web) => web.common !== true);
