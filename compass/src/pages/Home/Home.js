@@ -18,8 +18,8 @@ import WebCommonCard from '../UIComponent/WebCommonCard';
 
 import styles from './Home.less';
 
-import categories from "../Data/category.json";
-import websites from "../Data/websites.json";
+import categories from "../../assets/data/category.json";
+import websites from "../../assets/data/websites.json";
 import {Link, withRouter} from 'react-router-dom';
 
 const SubMenu = Menu.SubMenu;
