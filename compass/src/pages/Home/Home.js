@@ -18,8 +18,8 @@ import WebCommonCard from '../UIComponent/WebCommonCard';
 
 import styles from './Home.less';
 
-//import websites from "%PUBLIC_URL%/data/websites.json";
-//import {Link, withRouter} from 'react-router-dom';
+const webURL = 'https://raw.githubusercontent.com/wenghengcong/iOS-Compass/master/data/websites.json';
+const catURL = 'https://raw.githubusercontent.com/wenghengcong/iOS-Compass/master/data/category.json';
 
 const SubMenu = Menu.SubMenu;
 const {
@@ -34,42 +34,50 @@ class Home extends Component {
     allCategory: [],    // 分类
     commonSites: [],     // 常用网站
     categorySites: [],   // 分类网站
-
+    isLoading: false,
   }
 
   componentDidMount() {
-    const catURL =  process.env.PUBLIC_URL + '/data/category.json';
+
+    const _this = this;
     fetch(catURL)
-    // We get the API response and receive data in JSON format...
       .then(response => response.json())
-      // ...then we update the users state
-      .then(data =>
-        this.setState({
-          isLoading: false,
-        })
-      )
-      // Catch any errors we hit and update the app
+      .then(function (data) {
+        _this.setState({
+          allCategory: data,
+        });
+        _this.handleCategory(data);
+      })
       .catch(error =>
-        this.setState({ error, isLoading: false })
+        this.setState({error, isLoading: false})
       );
-    this.getWebSites();
+
+    fetch(webURL)
+      .then(response => response.json())
+      .then(function (data) {
+        _this.setState({
+          allWebsite: data,
+        });
+        _this.handleWebSites(data);
+      })
+      .catch(error =>
+        this.setState({error, isLoading: false})
+      );
   }
 
-  getWebSites = () => {
-    //test
-    const websites = [];
-    const categories = [];
-
-    const all = websites;
+  handleWebSites = (allWebsite) => {
+    const all = allWebsite;
     const common = all.filter((web) => web.common === true);
     const cate = all.filter((web) => web.common !== true);
 
     this.setState({
-      allWebsite: websites,
-      allCategory: categories,
       commonSites: common,
       categorySites: cate,
     });
+  }
+
+  handleCategory = (allCategory) => {
+
   }
 
   handleClickMenu = ({item, key, keyPath}) => {
@@ -82,7 +90,9 @@ class Home extends Component {
       // 找到锚点
       let anchorElement = document.getElementById(anchorName);
       // 如果对应id的锚点存在，就跳转到锚点
-      if(anchorElement) { anchorElement.scrollIntoView(); }
+      if (anchorElement) {
+        anchorElement.scrollIntoView();
+      }
     }
   }
 
@@ -93,8 +103,8 @@ class Home extends Component {
 
     if (commonWebsites.length > 0) {
       commonWebCard.push(
-        commonWebsites.map( (item) => {
-          return <WebCommonCard web={item}> </WebCommonCard>
+        commonWebsites.map((item) => {
+          return <WebCommonCard key={item.url} web={item}> </WebCommonCard>
         })
       );
     }
@@ -129,15 +139,15 @@ class Home extends Component {
               }}
               dataSource={currentCateWebs}
               size='small'
-              renderItem={item => (
-                <List.Item>
-                  <WebCard web={item}> </WebCard>
+              renderItem={web => (
+                <List.Item key={web.url}>
+                  <WebCard web={web}> </WebCard>
                 </List.Item>
               )}
             />
           </Card>
         </div>
-        if (item.name !=='常用') {
+        if (item.name !== '常用') {
           categoryCards.push(currentCateCard);
         }
       });
@@ -165,9 +175,9 @@ class Home extends Component {
               className={styles.webContainer}
             >
               <div id='常用' className={styles.commonContainer}>
-                  {commonWebCard}
+                {commonWebCard}
               </div>
-                {categoryCards}
+              {categoryCards}
             </Content>
             <Footer style={{textAlign: 'center'}}>
               Luci Design ©2019 Created by WengHengcong

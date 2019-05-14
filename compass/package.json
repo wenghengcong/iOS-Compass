@@ -11,7 +11,7 @@
     "lint:ts": "tslint \"src/**/*.ts\" \"src/**/*.tsx\"",
     "precommit": "lint-staged",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build &&  gh-pages -d dist"
   },
   "dependencies": {
     "ant-design-pro": "^2.3.2",
