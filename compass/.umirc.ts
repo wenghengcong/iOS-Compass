@@ -1,9 +1,24 @@
-import { IConfig } from 'umi-types';
+import {IConfig} from 'umi-types';
 
 // ref: https://umijs.org/config/
 
 // 参考：https://github.com/umijs/umi-plugin-gh-pages
-const config: IConfig =  {
+// gh-pages配置：https://github.com/tschaub/gh-pages#options
+const config: IConfig = {
+  minimizer: 'terserjs',
+  chainWebpack(config) {
+    config.optimization.splitChunks({
+      cacheGroups: {
+        styles: {
+          name: 'styles',
+          test: /\.(css|less)$/,
+          chunks: 'async',
+          minChunks: 1,
+          minSize: 0,
+        }
+      },
+    });
+  },
   treeShaking: true,
   base: '/iOS-Compass/',
   publicPath: '/iOS-Compass/',
@@ -13,6 +28,10 @@ const config: IConfig =  {
       antd: true,
       dva: true,
       title: 'compass',
+      dynamicImport: {
+        webpackChunkName: true,
+      },
+      chunks: ['vendors', 'umi'],
     }],
     'umi-plugin-gh-pages',
   ],

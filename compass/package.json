@@ -19,6 +19,7 @@
     "dva": "^2.5.0-beta.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "terser": "^3.17.0",
     "umi-plugin-gh-pages": "^0.1.0"
   },
   "devDependencies": {
