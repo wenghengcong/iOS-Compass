@@ -3,6 +3,7 @@ import {
   Card,
   Avatar,
   Button,
+  Divider,
 } from "antd";
 import {Ellipsis} from 'ant-design-pro';
 import {BrowserRouter, Route, Link} from "react-router-dom";
@@ -38,10 +39,6 @@ class WebCard extends PureComponent {
 
   }
 
-  gotoWeb = (web) => {
-
-  }
-
   toggleHoverEnter = () => {
     this.setState({hover: true})
   }
@@ -63,8 +60,9 @@ class WebCard extends PureComponent {
           event.preventDefault();
           window.open(web.url);
         }}>
-          <Avatar className={styles.normalCardAvatar} src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
+          <Avatar className={styles.normalCardAvatar} src={web.avatar}/>
           <a className={styles.normalTitle}>{web.title}</a>
+          <Divider className={styles.normalDivider} />
           <a className={styles.normalDesc}>{web.description}</a>
         </Link>
       </div>
@@ -112,9 +110,10 @@ class WebCard extends PureComponent {
           event.preventDefault();
           window.open(web.url);
         }}>
-          <Avatar className={styles.hoverCardAvatar} src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
+          <Avatar className={styles.hoverCardAvatar} src={web.avatar}/>
           <a className={styles.hoverTitle}>{web.title}</a>
           {/*<a className={styles.desc}>{web.description}</a>*/}
+          <Divider className={styles.hoverDivider} />
         </Link>
         <span className={styles.hoverUrlContainer}>{linkButton}</span>
       </div>
@@ -122,7 +121,7 @@ class WebCard extends PureComponent {
 
     var showUI = showHoverUI ? hoverUI() : normalUI();
     return (
-      <div>
+      <div className={styles.card}>
         <Card
           hoverable
           size='small'
@@ -132,8 +131,7 @@ class WebCard extends PureComponent {
           {showUI}
         </Card>
       </div>
-    )
-      ;
+    );
   }
 
 }

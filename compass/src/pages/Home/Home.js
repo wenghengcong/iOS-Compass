@@ -7,11 +7,14 @@ import {
   Menu,
   List,
   Layout,
-  Anchor
+  Anchor,
+  Row,
+  Col,
 } from 'antd';
 
 
 import WebCard from '../UIComponent/WebCard';
+import WebCommonCard from '../UIComponent/WebCommonCard';
 
 import styles from './Home.less';
 
@@ -69,14 +72,13 @@ class Home extends Component {
 
   render() {
 
-    const commonCard = [];
-    const categoryCards = [];
-
     const commonWebsites = this.state.commonSites;
+    const commonWebCard = [];
+
     if (commonWebsites.length > 0) {
-      commonCard.push(
-        commonWebsites.map((item) => {
-          return <WebCard web={item}> </WebCard>
+      commonWebCard.push(
+        commonWebsites.map( (item) => {
+          return <WebCommonCard web={item}> </WebCommonCard>
         })
       );
     }
@@ -94,16 +96,20 @@ class Home extends Component {
       );
     }
 
+    const categoryCards = [];
     const cateWebsites = this.state.categorySites;
     if (cateWebsites.length > 0) {
       allCategory.map((item) => {
+
         const currentCateWebs = cateWebsites.filter(web => web.category === item.name);
         const currentCateCard = <div id={item.name}>
           <Card
-            title={item.name} className={styles.categoryCard}>
+            title={item.name}
+            className={styles.categoryCard}
+          >
             <List
               grid={{
-                gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 6, xxl: 3,
+                gutter: '10px', xs: 1, sm: 2, md: 4, lg: 4, xl: 5, xxl: 6,
               }}
               dataSource={currentCateWebs}
               size='small'
@@ -115,8 +121,9 @@ class Home extends Component {
             />
           </Card>
         </div>
-
-        categoryCards.push(currentCateCard);
+        if (item.name !=='常用') {
+          categoryCards.push(currentCateCard);
+        }
       });
     }
 
@@ -141,7 +148,10 @@ class Home extends Component {
             <Content
               className={styles.webContainer}
             >
-              {categoryCards}
+              <div id='常用' className={styles.commonContainer}>
+                  {commonWebCard}
+              </div>
+                {categoryCards}
             </Content>
             <Footer style={{textAlign: 'center'}}>
               Luci Design ©2019 Created by WengHengcong
