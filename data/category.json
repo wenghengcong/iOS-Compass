@@ -23,7 +23,13 @@
   {
     "name": "设计",
     "icon": "sketch",
-    "children": []
+    "children": [
+      {
+        "name": "测试",
+        "icon": "apple",
+        "children": []
+       }
+    ]
   },
   {
     "name": "产品",

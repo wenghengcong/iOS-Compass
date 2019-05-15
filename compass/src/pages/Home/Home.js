@@ -71,16 +71,8 @@ class Home extends Component {
 
   handleCategory = (allCategory) => {
     if (allCategory != undefined && allCategory != null) {
-      const combineCateAndChild = allCategory;
-      for (let i = 0; i < allCategory.length; i++) {
-        const cate = allCategory[i];
-        if (cate.children) {
-          const childrenNames = cate.children.map(cat => cat.name);
-          combineCateAndChild.push(childrenNames);
-        }
-      }
       this.setState({
-        allCategory: combineCateAndChild,
+        allCategory: allCategory,
       });
     }
   }
@@ -88,6 +80,14 @@ class Home extends Component {
   handleClickMenu = ({item, key, keyPath}) => {
     console.log('click', item);
     this.scrollToAnchor(key);
+  }
+
+  handleClickMenu = (openkeys) => {
+    console.log('click', openkeys);
+    if (openkeys != undefined && openkeys != null) {
+
+    }
+    // this.scrollToAnchor();
   }
 
   scrollToAnchor = (anchorName) => {
@@ -99,6 +99,32 @@ class Home extends Component {
         anchorElement.scrollIntoView();
       }
     }
+  }
+
+  generateCategoryBoard = (category) => {
+    const cateWebsites = this.state.categorySites;
+    const currentCateWebs = cateWebsites.filter(web => web.category === category.name);
+    const currentCateCard = <div id={category.name}>
+      <Card
+        title={category.name}
+        className={styles.categoryCard}
+      >
+        <List
+          grid={{
+            gutter: '10px', xs: 1, sm: 2, md: 4, lg: 4, xl: 5, xxl: 6,
+          }}
+          dataSource={currentCateWebs}
+          size='small'
+          renderItem={web => (
+            <List.Item key={web.url}>
+              <WebCard web={web}> </WebCard>
+            </List.Item>
+          )}
+        />
+      </Card>
+    </div>;
+
+    return currentCateCard;
   }
 
   render() {
@@ -161,30 +187,22 @@ class Home extends Component {
     const categoryCards = [];
     const cateWebsites = this.state.categorySites;
     if (cateWebsites.length > 0) {
-      allCategory.map((item) => {
+      allCategory.map((firstLevelItem) => {
 
-        const currentCateWebs = cateWebsites.filter(web => web.category === item.name);
-        const currentCateCard = <div id={item.name}>
-          <Card
-            title={item.name}
-            className={styles.categoryCard}
-          >
-            <List
-              grid={{
-                gutter: '10px', xs: 1, sm: 2, md: 4, lg: 4, xl: 5, xxl: 6,
-              }}
-              dataSource={currentCateWebs}
-              size='small'
-              renderItem={web => (
-                <List.Item key={web.url}>
-                  <WebCard web={web}> </WebCard>
-                </List.Item>
-              )}
-            />
-          </Card>
-        </div>
-        if (item.name !== '常用') {
+        const currentCateCard = this.generateCategoryBoard(firstLevelItem);
+        if (firstLevelItem.name !== '常用') {
           categoryCards.push(currentCateCard);
+        };
+        // 有子分类，将构建子分类的board
+        if (firstLevelItem.children != undefined && firstLevelItem.children != null
+          && firstLevelItem.children.length > 0) {
+
+          firstLevelItem.children.map((child) => {
+            const currentCateCard = this.generateCategoryBoard(child);
+            if (child.name !== '常用') {
+              categoryCards.push(currentCateCard);
+            }
+          });
         }
       });
     }
@@ -200,7 +218,9 @@ class Home extends Component {
                   theme="dark"
                   mode="inline"
               // defaultSelectedKeys={['4']}
+                  onOpenChange={this.handleClickMenu}
                   onClick={this.handleClickMenu}
+                  // onSelect={this.handleClickMenu}
             >
               {menus}
             </Menu>
