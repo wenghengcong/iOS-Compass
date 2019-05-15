@@ -110,9 +110,15 @@ class Home extends Component {
     if (allCategory.length > 0) {
       menus.push(
         allCategory.map((item) => {
+          const spinItem = item.spin ? true : false;
           return <Menu.Item key={item.name}>
-            <Icon type={item.icon}/>
-            <span className="nav-text">{item.name}</span>
+            <Icon type={item.icon} theme="outlined"
+                   spin={spinItem}
+                  // style={{ fontSize: '18px'}}
+                />
+            <span
+              // style={{ fontSize: '16px'}}
+                  className="nav-text">{item.name}</span>
           </Menu.Item>
         })
       );
@@ -176,7 +182,7 @@ class Home extends Component {
               {categoryCards}
             </Content>
             <Footer style={{textAlign: 'center'}}>
-              Luci Design ©2019 Created by WengHengcong
+              Luci Design ©2019 Created by 翁恒丛
             </Footer>
           </Layout>
         </Layout>
