@@ -77,6 +77,21 @@ class WebCard extends PureComponent {
     const hoverUI = function () {
       const linkButton = [];
 
+      var countLinks = 0;
+      if (web.cn_url) {
+        countLinks++;
+      }
+      if (web.en_url) {
+        countLinks++;
+      }
+      if (web.gb_url) {
+        countLinks++;
+      }
+      var styleHoverButton = styles.hover3Button;
+      if (countLinks == 2) {
+        styleHoverButton = styles.hover2Button;
+      }
+
       if (web.cn_url) {
         const cnTitle = web.cn_title ? web.cn_title : "中文";
         linkButton.push(<Link key={web.cn_url} to={web.cn_url} target="_blank" onClick={(event) => {
@@ -85,7 +100,7 @@ class WebCard extends PureComponent {
               window.open(web.cn_url);
             }
           }}>
-            <Button key={web.cn_url} className={styles.hoverButton} type='primary'>{cnTitle}</Button>
+            <Button key={web.cn_url} className={styleHoverButton} type='primary'>{cnTitle}</Button>
           </Link>
         )
       }
@@ -98,7 +113,7 @@ class WebCard extends PureComponent {
             window.open(web.en_url);
           }
         }}>
-          <Button key={web.en_url} className={styles.hoverButton} type='primary'>{enTitle}</Button>
+          <Button key={web.en_url} className={styleHoverButton} type='primary'>{enTitle}</Button>
         </Link>)
       }
 
@@ -111,7 +126,7 @@ class WebCard extends PureComponent {
             window.open(web.gb_url);
           }
         }}>
-          <Button key={web.gb_url} className={styles.hoverButton} type='primary'>{gbTitle}</Button>
+          <Button key={web.gb_url} className={styleHoverButton} type='primary'>{gbTitle}</Button>
         </Link>)
       }
 
@@ -135,7 +150,10 @@ class WebCard extends PureComponent {
         <Card
           hoverable
           size='small'
-          onMouseEnter={this.toggleHoverEnter} onMouseLeave={this.toggleHoverLeave}
+          onMouseEnter={this.toggleHoverEnter}
+          onMouseLeave={this.toggleHoverLeave}
+          // onMouseOut={this.toggleHoverLeave}
+          // onMouseDown={this.toggleHoverLeave}
           className={styles.card}
         >
           {showUI}

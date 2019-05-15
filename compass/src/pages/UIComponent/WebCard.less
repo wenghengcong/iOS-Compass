@@ -5,11 +5,12 @@
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  width: 175px;
-  height: 90px;
+  width: 172px;
+  height: 84px;
 }
 
 @normal-text-left: 40px;
+@desc-text-color: #585858;
 
 // 头像区域
 .normalCardAvatar {
@@ -37,7 +38,7 @@
 }
 
 .normalDivider {
-  margin-top: 25px;
+  margin-top: 27px;
 }
 
 // 描述
@@ -52,15 +53,15 @@
 
   display: block;
   margin-left: 0;
-  margin-top: -22px;
+  margin-top: -20px;
   font-size: 12px;
   font-weight: 400;
 
   height: 35px;
-  color: @text-color-secondary;
+  color: @desc-text-color;
   //前面加&
   &:hover {
-    color: @text-color-secondary;
+    color: @desc-text-color;
   }
 }
 
@@ -90,7 +91,7 @@
 }
 
 .hoverDivider {
-  margin-top: 30px;
+  margin-top: 27px;
 }
 
 // 描述
@@ -100,10 +101,10 @@
   margin-top: 13px;
   font-size: 12px;
   height: 25px;
-  color: @text-color-secondary;
+  color: @desc-text-color;
   //前面加&
   &:hover {
-    color: @text-color-secondary;
+    color: @desc-text-color;
   }
 }
 
@@ -114,15 +115,23 @@
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-content: center;
-  margin-top: -20px;
+  margin-top: -22px;
   margin-left: -3px;
 }
 
-// 链接按钮
-.hoverButton {
+// 链接按钮:3个按钮
+.hover3Button {
   padding-left: 8px;
   //margin-right: 3px;
   width: 47px;
+  height: 20px;
+  font-size: 12px;
+}
+
+.hover2Button {
+  //padding-left: 13px;
+  //margin-right: 3px;
+  //width: 60px;
   height: 20px;
   font-size: 12px;
 }
