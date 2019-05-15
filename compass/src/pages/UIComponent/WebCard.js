@@ -4,10 +4,13 @@ import {
   Avatar,
   Button,
   Divider,
+  Typography
 } from "antd";
 import {Ellipsis} from 'ant-design-pro';
 import {BrowserRouter, Route, Link} from "react-router-dom";
 import styles from './WebCard.less';
+
+const {Title, Paragraph, Text} = Typography;
 
 /*
 web title: '',
@@ -50,7 +53,7 @@ class WebCard extends PureComponent {
   render() {
     const web = this.props.web;
     const hover = this.state.hover;
-    const hasLinkUrl = web.cn_url ? true : ((web.en_url) ? true: ((web.gb_url) ? true : false));
+    const hasLinkUrl = web.cn_url ? true : ((web.en_url) ? true : ((web.gb_url) ? true : false));
     // 只有有三个其中之一的外链，以及鼠标在上面时，才显示
     const showHoverUI = hover && hasLinkUrl;
 
@@ -62,8 +65,11 @@ class WebCard extends PureComponent {
         }}>
           <Avatar className={styles.normalCardAvatar} src={web.avatar}/>
           <a className={styles.normalTitle}>{web.title}</a>
-          <Divider className={styles.normalDivider} />
-          <a className={styles.normalDesc}>{web.description}</a>
+          <Divider className={styles.normalDivider}/>
+          <Paragraph ellipsis={{rows: 2}} className={styles.normalDesc}>
+            {web.description}
+          </Paragraph>
+          {/*<a className={styles.normalDesc}></a>*/}
         </Link>
       </div>
     }
@@ -116,7 +122,7 @@ class WebCard extends PureComponent {
           <Avatar className={styles.hoverCardAvatar} src={web.avatar}/>
           <a className={styles.hoverTitle}>{web.title}</a>
           {/*<a className={styles.desc}>{web.description}</a>*/}
-          <Divider className={styles.hoverDivider} />
+          <Divider className={styles.hoverDivider}/>
         </Link>
         <span className={styles.hoverUrlContainer}>{linkButton}</span>
       </div>

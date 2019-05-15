@@ -6,19 +6,19 @@ import {IConfig} from 'umi-types';
 // gh-pages配置：https://github.com/tschaub/gh-pages#options
 const config: IConfig = {
   minimizer: 'terserjs',
-  chainWebpack(config) {
-    config.optimization.splitChunks({
-      cacheGroups: {
-        styles: {
-          name: 'styles',
-          test: /\.(css|less)$/,
-          chunks: 'async',
-          minChunks: 1,
-          minSize: 0,
-        }
-      },
-    });
-  },
+  // chainWebpack(config) {
+  //   config.optimization.splitChunks({
+  //     cacheGroups: {
+  //       styles: {
+  //         name: 'styles',
+  //         test: /\.(css|less)$/,
+  //         chunks: 'async',
+  //         minChunks: 1,
+  //         minSize: 0,
+  //       }
+  //     },
+  //   });
+  // },
   treeShaking: true,
   base: '/iOS-Compass/',
   publicPath: '/iOS-Compass/',
