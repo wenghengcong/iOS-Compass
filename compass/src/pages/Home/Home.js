@@ -73,11 +73,11 @@ class Home extends Component {
     if (allCategory != undefined && allCategory != null) {
       const combineCateAndChild = allCategory;
       for (let i = 0; i < allCategory.length; i++) {
-          const cate = allCategory[i];
-          if (cate.children) {
-            const childrenNames = cate.children.map( cat => cat.name );
-            combineCateAndChild.push(childrenNames);
-          }
+        const cate = allCategory[i];
+        if (cate.children) {
+          const childrenNames = cate.children.map(cat => cat.name);
+          combineCateAndChild.push(childrenNames);
+        }
       }
       this.setState({
         allCategory: combineCateAndChild,
@@ -120,15 +120,40 @@ class Home extends Component {
       menus.push(
         allCategory.map((item) => {
           const spinItem = item.spin ? true : false;
-          return <Menu.Item key={item.name}>
-            <Icon type={item.icon} theme="outlined"
-                   spin={spinItem}
-                  // style={{ fontSize: '18px'}}
-                />
-            <span
-              // style={{ fontSize: '16px'}}
-                  className="nav-text">{item.name}</span>
-          </Menu.Item>
+          const menuChildren = item.children ? item.children : [];
+          if (menuChildren.length > 0) {
+            const childMenuItems = []
+            // 如果有子菜单
+            childMenuItems.push(
+              menuChildren.map((child) => {
+                return <Menu.Item key={child.name}>
+                  <Icon type={child.icon} theme="outlined"
+                        spin={spinItem}
+                  />
+                  <span className="nav-text">{child.name}</span>
+                </Menu.Item>
+              })
+            );
+
+            const subMenu = <SubMenu key={item.name}
+                                     title={
+                                       <span>
+                                        <Icon type={item.icon} theme="outlined"
+                                              spin={spinItem}/>
+                                        <span>{item.name}</span>
+                                        </span>}>
+              {childMenuItems}
+            </SubMenu>
+            return subMenu;
+          } else {
+            return <Menu.Item key={item.name}>
+              <Icon type={item.icon} theme="outlined"
+                    spin={spinItem}
+                // style={{ fontSize: '18px'}}
+              />
+              <span className="nav-text">{item.name}</span>
+            </Menu.Item>
+          }
         })
       );
     }

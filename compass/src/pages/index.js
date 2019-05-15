@@ -11,7 +11,7 @@ export default function() {
   return (
     <div className={styles.back}>
       <Favicon url="https://raw.githubusercontent.com/wenghengcong/iOS-Compass/master/images/favicon.ico" />
-      <Home></Home>
+      <Home key='home'></Home>
     </div>
   );
 }
