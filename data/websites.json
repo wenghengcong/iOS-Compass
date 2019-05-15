@@ -11,7 +11,7 @@
   {
     "title": "掘金",
     "url": "https://juejin.im",
-    "description": "一个帮助开发者成长的社区",
+    "description": "开发者社区",
     "avatar": "//tvax2.sinaimg.cn/crop.12.14.448.448.180/005SiNxyly8g1nzah4zlbj30dc0dcdfz.jpg",
     "style": 0,
     "category": "开发",
@@ -48,28 +48,6 @@
     "category": "开发",
     "common": true
   },
-  {
-    "title": "iOS Dev Weekly",
-    "url": "https://iosdevweekly.com/",
-    "description": "best iOS development links every week",
-    "avatar": "https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-1/p200x200/10687118_1510606245892008_5211956397054430851_n.png?_nc_cat=105&_nc_ht=scontent-ams3-1.xx&oh=4e70c15528e8cdf0711287a35a7e786d&oe=5D712EE0",
-    "style": 0,
-    "category": "开发",
-    "common": false
-  },
-  {
-    "title": "Objc中国",
-    "url": "https://objccn.io/issues/",
-    "en_title": "英文",
-    "cn_title": "中文",
-    "en_url": "https://www.objc.io/issues/",
-    "cn_url": "https://objccn.io/issues/",
-    "description": "为中国 Apple 开发社区带来最佳实践和先进技术",
-    "avatar": "https://pbs.twimg.com/profile_images/606838270652252160/k5FKkLvB_400x400.png",
-    "style": 0,
-    "category": "开发",
-    "common": false
-  },
   
   
   
@@ -96,7 +74,7 @@
     "cn_url": "https://developer.apple.com/library/archive/navigation/",
     "en_url": "https://developer.apple.com/documentation/",
     "description": "苹果官方开发工具下载",
-    "avatar": "https://",
+    "avatar": "https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p480x480/13775446_1098966590195945_9090960569811094730_n.jpg?_nc_cat=1&_nc_ht=scontent-nrt1-1.xx&oh=59abf602e28cb30fb00c1b7ca48e0161&oe=5D730F94",
     "style": 0,
     "category": "苹果专区",
     "common": false
@@ -104,8 +82,8 @@
   {
     "title": "Swift",
     "url": "https://swift.org/",
-    "en_title": "Guide",
-    "cn_title": "Resouce",
+    "en_title": "指南",
+    "cn_title": "资源",
     "en_url": "https://docs.swift.org/swift-book/index.html",
     "cn_url": "https://developer.apple.com/swift/resources/",
     "description": "Swift语言官网",
@@ -155,9 +133,39 @@
     "category": "苹果专区",
     "common": false
   },
-  
 
+  {
+    "title": "iOS Dev Weekly",
+    "url": "https://iosdevweekly.com/",
+    "description": "Development links weekly",
+    "avatar": "https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-1/p200x200/10687118_1510606245892008_5211956397054430851_n.png?_nc_cat=105&_nc_ht=scontent-ams3-1.xx&oh=4e70c15528e8cdf0711287a35a7e786d&oe=5D712EE0",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  },
+  {
+    "title": "Objc中国",
+    "url": "https://objccn.io/issues/",
+    "en_title": "英文",
+    "cn_title": "中文",
+    "en_url": "https://www.objc.io/issues/",
+    "cn_url": "https://objccn.io/issues/",
+    "description": "Apple开发集锦",
+    "avatar": "https://pbs.twimg.com/profile_images/606838270652252160/k5FKkLvB_400x400.png",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  },
 
+  {
+    "title": "iOS Goodies",
+    "url": "https://ios-goodies.com/",
+    "description": "weekly iOS newsletter",
+    "avatar": "https://66.media.tumblr.com/avatar_36a8f259310f_128.pnj",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  },
 
 
 
@@ -168,7 +176,7 @@
     "title": "简版保留",
     "url": "https://swift.org/",
     "description": "谷歌搜索",
-    "avatar": "https://",
+    "avatar": "https",
     "style": 0,
     "category": "dev",
     "common": false
