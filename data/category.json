@@ -1,7 +1,7 @@
 [
   {
     "name": "常用",
-    "icon": "",
+    "icon": "star",
     "child": []
   },
    {
@@ -12,7 +12,7 @@
   {
     "name": "开发",
     "icon": "code",
-    "child": []
+    "child": ["博客"]
   },
   {
     "name": "设计",
