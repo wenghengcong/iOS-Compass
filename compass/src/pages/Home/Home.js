@@ -101,7 +101,17 @@ class Home extends Component {
     }
   }
 
-  generateCategoryBoard = (category) => {
+  generateCategoryBoard = (style) => {
+
+    if (style == 0) {
+
+    } else if(style == 1) {
+      
+    }
+
+  }
+
+    generateCategoryBoard = (category) => {
     const cateWebsites = this.state.categorySites;
     const currentCateWebs = cateWebsites.filter(web => web.category === category.name);
     const currentCateCard = <div id={category.name}>
