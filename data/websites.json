@@ -48,7 +48,17 @@
     "category": "开发",
     "common": true
   },
-  
+  {
+    "title": "InfoQ",
+    "url": "https://www.infoq.cn/",
+    "description": "促进软件开发领域知识与创新的传播",
+    "avatar": "tva3.sinaimg.cn/crop.0.0.401.401.180/68147f68jw8ezff3h1n0ij20b50b5weq.jpg",
+    "style": 0,
+    "category": "开发",
+    "common": true
+  },
+
+
   
   
   {
@@ -166,6 +176,10 @@
     "category": "开发",
     "common": false
   },
+
+
+
+
   {
     "title": "唐巧",
     "url": "http://blog.devtang.com/",
@@ -175,12 +189,62 @@
     "category": "博客",
     "common": false
   },
-
-
-
-
-
-
+{
+    "title": "杨萧玉",
+    "url": "http://yulingtianxia.com/",
+    "description": "玉令天下的博客",
+    "avatar": "https://avatars1.githubusercontent.com/u/433320?v=4&s=80",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
+  {
+    "title": "OneV's Den",
+    "url": "https://onevcat.com/#blog",
+    "description": "王巍 (@onevcat)的博客",
+    "avatar": "https://onevcat.com/assets/images/avatar.jpg",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
+  {
+    "title": "伽蓝之堂",
+    "url": "https://blog.ibireme.com/",
+    "description": "YY的博客",
+    "avatar": "http://tva4.sinaimg.cn/crop.0.0.511.511.180/93b0b730jw8exusla6aurj20e70e8dfs.jpg",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
+  {
+    "title": "算法之道",
+    "url": "https://blog.csdn.net/v_july_v",
+    "description": "结构之法 算法之道",
+    "avatar": "https://profile.csdnimg.cn/E/0/C/1_v_july_v",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
+  {
+    "title": "Facebook iOS",
+    "url": "https://code.fb.com/category/ios/",
+    "cn_title": "开源",
+    "cn_url": "https://opensource.facebook.com/#ios",
+    "description": "iOS Dev",
+    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/58818464_10158354585756729_7126855515920924672_n.png?_nc_cat=1&_nc_ht=scontent.fkix2-1.fna&oh=527fefd36dbecbfceb7c7270c2569ec7&oe=5D5A8CDB",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
+  {
+    "title": "美团技术团队",
+    "url": "https://tech.meituan.com/tags/ios.html",
+    "description": "iOS 文章列表",
+    "avatar": "tva1.sinaimg.cn/crop.0.0.150.150.180/6481d4eajw8f4l9vs5wp3j20460463yi.jpg",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
 
 
   {
@@ -189,7 +253,7 @@
     "description": "谷歌搜索",
     "avatar": "https",
     "style": 0,
-    "category": "设计",
+    "category": "dev",
     "common": false
   },
 
@@ -205,7 +269,7 @@
     "description": "谷歌搜索",
     "avatar": "http",
     "style": 0,
-    "category": "测试",
+    "category": "dev",
     "common": false
   }
 ]

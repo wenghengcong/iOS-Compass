@@ -85,9 +85,9 @@ class Home extends Component {
   handleClickSubMenu = (openkeys) => {
     console.log('click', openkeys);
     if (openkeys != undefined && openkeys != null) {
-
+      const lastClick = openkeys[openkeys.length - 1];
+      this.scrollToAnchor(lastClick);
     }
-    // this.scrollToAnchor();
   }
 
   scrollToAnchor = (anchorName) => {
@@ -217,10 +217,12 @@ class Home extends Component {
             <Menu className={styles.menu}
                   theme="dark"
                   mode="inline"
+                  // subMenuCloseDelay={0.2}
+                  // subMenuOpenDelay={0}
               // defaultSelectedKeys={['4']}
-                  onOpenChange={this.handleClickMenu}
+                  onOpenChange={this.handleClickSubMenu}
                   onClick={this.handleClickMenu}
-                  // onSelect={this.handleClickMenu}
+                  // onSelect={this.handleClickSubMenu}
             >
               {menus}
             </Menu>
