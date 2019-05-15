@@ -1,0 +1,47 @@
+.card {
+  //margin-top: -6px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 172px;
+  height: 84px;
+}
+
+@normal-text-left: 40px;
+@desc-text-color: #585858;
+
+.normalTitle {
+  display: block;
+  white-space:nowrap;
+  margin-top: -30px;
+  margin-left: @normal-text-left;
+  height: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  width:fit-content;
+  width:-moz-fit-content;
+  color: @heading-color;
+  &:hover {
+    color: @heading-color;
+  }
+}
+
+.normalDivider {
+  margin-top: 27px;
+}
+
+// 描述
+.normalDesc {
+  display: block;
+  margin-left: 0;
+  margin-top: -18px;
+  font-size: 12px;
+  font-weight: 400;
+
+  height: 35px;
+  color: @desc-text-color;
+  //前面加&
+  &:hover {
+    color: @desc-text-color;
+  }
+}

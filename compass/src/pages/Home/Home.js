@@ -13,6 +13,7 @@ import WebCard from '../UIComponent/WebCard';
 import WebCommonCard from '../UIComponent/WebCommonCard';
 
 import styles from './Home.less';
+import WebTextCard from "../UIComponent/WebTextCard";
 
 const webURL = 'https://raw.githubusercontent.com/wenghengcong/iOS-Compass/master/data/websites.json';
 const catURL = 'https://raw.githubusercontent.com/wenghengcong/iOS-Compass/master/data/category.json';
@@ -101,14 +102,13 @@ class Home extends Component {
     }
   }
 
-  generateCategoryBoard = (style) => {
+  generateCategoryWebCard = (web) => {
 
-    if (style == 0) {
-
-    } else if(style == 1) {
-      
+    if (web.style == undefined || web.style == null || web.style == 0) {
+      return <WebCard web={web}> </WebCard>
+    } else if(web.style == 1) {
+      return <WebTextCard web={web}> </WebTextCard>
     }
-
   }
 
     generateCategoryBoard = (category) => {
@@ -128,6 +128,7 @@ class Home extends Component {
           renderItem={web => (
             <List.Item key={web.url}>
               <WebCard web={web}> </WebCard>
+              {/*{this.generateCategoryWebCard(web)}*/}
             </List.Item>
           )}
         />
