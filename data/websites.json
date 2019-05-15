@@ -12,7 +12,7 @@
     "title": "掘金",
     "url": "https://juejin.im",
     "description": "开发者社区",
-    "avatar": "//tvax2.sinaimg.cn/crop.12.14.448.448.180/005SiNxyly8g1nzah4zlbj30dc0dcdfz.jpg",
+    "avatar": "https://tvax2.sinaimg.cn/crop.12.14.448.448.180/005SiNxyly8g1nzah4zlbj30dc0dcdfz.jpg",
     "style": 0,
     "category": "开发",
     "common": true
@@ -52,7 +52,7 @@
     "title": "InfoQ",
     "url": "https://www.infoq.cn/",
     "description": "促进软件开发领域知识与创新的传播",
-    "avatar": "tva3.sinaimg.cn/crop.0.0.401.401.180/68147f68jw8ezff3h1n0ij20b50b5weq.jpg",
+    "avatar": "https://tva3.sinaimg.cn/crop.0.0.401.401.180/68147f68jw8ezff3h1n0ij20b50b5weq.jpg",
     "style": 0,
     "category": "开发",
     "common": true
@@ -211,7 +211,7 @@
     "title": "伽蓝之堂",
     "url": "https://blog.ibireme.com/",
     "description": "YY的博客",
-    "avatar": "http://tva4.sinaimg.cn/crop.0.0.511.511.180/93b0b730jw8exusla6aurj20e70e8dfs.jpg",
+    "avatar": "https://tva4.sinaimg.cn/crop.0.0.511.511.180/93b0b730jw8exusla6aurj20e70e8dfs.jpg",
     "style": 0,
     "category": "博客",
     "common": false
@@ -240,7 +240,7 @@
     "title": "美团技术团队",
     "url": "https://tech.meituan.com/tags/ios.html",
     "description": "iOS 文章列表",
-    "avatar": "tva1.sinaimg.cn/crop.0.0.150.150.180/6481d4eajw8f4l9vs5wp3j20460463yi.jpg",
+    "avatar": "https://tva1.sinaimg.cn/crop.0.0.150.150.180/6481d4eajw8f4l9vs5wp3j20460463yi.jpg",
     "style": 0,
     "category": "博客",
     "common": false
