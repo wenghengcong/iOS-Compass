@@ -82,7 +82,7 @@ class Home extends Component {
     this.scrollToAnchor(key);
   }
 
-  handleClickMenu = (openkeys) => {
+  handleClickSubMenu = (openkeys) => {
     console.log('click', openkeys);
     if (openkeys != undefined && openkeys != null) {
 
