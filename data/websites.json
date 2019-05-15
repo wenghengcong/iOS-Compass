@@ -29,6 +29,8 @@
   {
     "title": "NSHipster",
     "url": "https://nshipster.cn/",
+    "en_title": "英文",
+    "cn_title": "中文",
     "en_url": "https://nshipster.com/",
     "cn_url": "https://nshipster.cn/",
     "description": "关注被忽略的 Objective-C、Swift 和 Cocoa 特性",
@@ -58,6 +60,8 @@
   {
     "title": "Objc中国",
     "url": "https://objccn.io/issues/",
+    "en_title": "英文",
+    "cn_title": "中文",
     "en_url": "https://www.objc.io/issues/",
     "cn_url": "https://objccn.io/issues/",
     "description": "为中国 Apple 开发社区带来最佳实践和先进技术",
@@ -66,45 +70,51 @@
     "category": "开发",
     "common": false
   },
+  
+  
+  
+  
+  
+   {
+    "title": "Apple Design",
+    "url": "https://developer.apple.com/design/",
+    "description": "苹果设计",
+    "avatar": "https://www.apple.com/cn/leadership/jonathan-ive/bio/image_large_2x.png",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
+  
   {
-    "title": "保留",
-    "url": "https://www.google.com",
-    "en_url": "https://www.github.com",
-    "cn_url": "https://www.github.com",
-    "gb_url": "https://www.github.com",
+    "title": "HIG iOS",
+    "url": "https://developer.apple.com/design/human-interface-guidelines/ios",
+    "description": "人机交互指南",
+    "avatar": "https://",
+    "style": 0,
+    "category": "dev",
+    "common": false
+  },
+
+
+
+
+
+  {
+    "title": "简版保留",
+    "url": "https://swift.org/",
     "description": "谷歌搜索",
     "avatar": "https://",
     "style": 0,
     "category": "dev",
     "common": false
   },
+
   {
-    "title": "保留",
+    "title": "复杂版保留",
     "url": "https://www.google.com",
-    "en_url": "https://www.github.com",
-    "cn_url": "https://www.github.com",
-    "gb_url": "https://www.github.com",
-    "description": "谷歌搜索",
-    "avatar": "https://",
-    "style": 0,
-    "category": "dev",
-    "common": false
-  },
-  {
-    "title": "保留",
-    "url": "https://www.google.com",
-    "en_url": "https://www.github.com",
-    "cn_url": "https://www.github.com",
-    "gb_url": "https://www.github.com",
-    "description": "谷歌搜索",
-    "avatar": "https://",
-    "style": 0,
-    "category": "dev",
-    "common": false
-  },
-  {
-    "title": "保留",
-    "url": "https://www.google.com",
+    "en_title": "英文",
+    "cn_title": "中文",
+    "gb_title": "GitHub",
     "en_url": "https://www.github.com",
     "cn_url": "https://www.github.com",
     "gb_url": "https://www.github.com",
