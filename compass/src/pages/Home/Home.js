@@ -106,12 +106,12 @@ class Home extends Component {
 
     if (web.style == undefined || web.style == null || web.style == 0) {
       return <WebCard web={web}> </WebCard>
-    } else if(web.style == 1) {
+    } else if (web.style == 1) {
       return <WebTextCard web={web}> </WebTextCard>
     }
   }
 
-    generateCategoryBoard = (category) => {
+  generateCategoryBoard = (category) => {
     const cateWebsites = this.state.categorySites;
     const currentCateWebs = cateWebsites.filter(web => web.category === category.name);
     const currentCateCard = <div id={category.name}>
@@ -127,8 +127,8 @@ class Home extends Component {
           size='small'
           renderItem={web => (
             <List.Item key={web.url}>
-              <WebCard web={web}> </WebCard>
-              {/*{this.generateCategoryWebCard(web)}*/}
+              {/*<WebCard web={web}> </WebCard>*/}
+              {this.generateCategoryWebCard(web)}
             </List.Item>
           )}
         />
@@ -203,7 +203,8 @@ class Home extends Component {
         const currentCateCard = this.generateCategoryBoard(firstLevelItem);
         if (firstLevelItem.name !== '常用') {
           categoryCards.push(currentCateCard);
-        };
+        }
+        ;
         // 有子分类，将构建子分类的board
         if (firstLevelItem.children != undefined && firstLevelItem.children != null
           && firstLevelItem.children.length > 0) {
@@ -228,12 +229,12 @@ class Home extends Component {
             <Menu className={styles.menu}
                   theme="dark"
                   mode="inline"
-                  // subMenuCloseDelay={0.2}
-                  // subMenuOpenDelay={0}
+              // subMenuCloseDelay={0.2}
+              // subMenuOpenDelay={0}
               // defaultSelectedKeys={['4']}
                   onOpenChange={this.handleClickSubMenu}
                   onClick={this.handleClickMenu}
-                  // onSelect={this.handleClickSubMenu}
+              // onSelect={this.handleClickSubMenu}
             >
               {menus}
             </Menu>

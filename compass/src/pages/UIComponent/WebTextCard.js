@@ -8,7 +8,7 @@ import {
 } from "antd";
 import {Ellipsis} from 'ant-design-pro';
 import {BrowserRouter, Route, Link} from "react-router-dom";
-import styles from './WebCard.less';
+import styles from './WebTextCard.less';
 
 const {Title, Paragraph, Text} = Typography;
 
@@ -25,7 +25,7 @@ class WebTextCard extends PureComponent {
         event.preventDefault();
         window.open(web.url);
       }}>
-        <a className={styles.normalTitle}>{web.title}</a>
+        <div className={styles.normalTitle}>{web.title}</div>
         <Divider className={styles.normalDivider}/>
         <Paragraph ellipsis={{rows: 2}} className={styles.normalDesc}>
           {web.description}

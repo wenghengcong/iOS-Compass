@@ -257,32 +257,7 @@
   },
   
 
-
-  {
-    "title": "简版保留",
-    "url": "https://swift.org/",
-    "description": "谷歌搜索",
-    "avatar": "https",
-    "style": 1,
-    "category": "开发",
-    "common": false
-  },
-
-  {
-    "title": "复杂版保留",
-    "url": "https://www.google.com",
-    "cn_title": "中文",
-    "en_title": "英文",
-    "gb_title": "GitHub",
-    "cn_url": "https://www.github.com",
-    "en_url": "https://www.github.com",
-    "gb_url": "https://www.github.com",
-    "description": "谷歌搜索",
-    "avatar": "http",
-    "style": 1,
-    "category": "开发",
-    "common": false
-  },
+  
 
   {
     "title": "简版保留",
