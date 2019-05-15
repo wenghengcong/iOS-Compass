@@ -39,9 +39,6 @@ class Home extends Component {
     fetch(catURL)
       .then(response => response.json())
       .then(function (data) {
-        _this.setState({
-          allCategory: data,
-        });
         _this.handleCategory(data);
       })
       .catch(error =>
@@ -51,9 +48,6 @@ class Home extends Component {
     fetch(webURL)
       .then(response => response.json())
       .then(function (data) {
-        _this.setState({
-          allWebsite: data,
-        });
         _this.handleWebSites(data);
       })
       .catch(error =>
@@ -62,6 +56,9 @@ class Home extends Component {
   }
 
   handleWebSites = (allWebsite) => {
+    this.setState({
+      allWebsite: allWebsite,
+    });
     const all = allWebsite;
     const common = all.filter((web) => web.common === true);
     const cate = all.filter((web) => web.common !== true);
@@ -73,7 +70,19 @@ class Home extends Component {
   }
 
   handleCategory = (allCategory) => {
-
+    if (allCategory != undefined && allCategory != null) {
+      const combineCateAndChild = allCategory;
+      for (let i = 0; i < allCategory.length; i++) {
+          const cate = allCategory[i];
+          if (cate.children) {
+            const childrenNames = cate.children.map( cat => cat.name );
+            combineCateAndChild.push(childrenNames);
+          }
+      }
+      this.setState({
+        allCategory: combineCateAndChild,
+      });
+    }
   }
 
   handleClickMenu = ({item, key, keyPath}) => {

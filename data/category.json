@@ -2,26 +2,32 @@
   {
     "name": "常用",
     "icon": "star",
-    "child": []
+    "children": []
   },
    {
     "name": "苹果专区",
     "icon": "apple",
-    "child": []
+    "children": []
   },
   {
     "name": "开发",
     "icon": "code",
-    "child": ["博客"]
+    "children": [
+      {
+       "name": "博客",
+       "icon": "apple",
+       "children": []
+      }
+    ]
   },
   {
     "name": "设计",
     "icon": "sketch",
-    "child": []
+    "children": []
   },
   {
     "name": "产品",
     "icon": "appstore",
-    "child": []
+    "children": []
   }
 ]
