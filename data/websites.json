@@ -52,7 +52,7 @@
     "title": "InfoQ",
     "url": "https://www.infoq.cn/",
     "description": "促进软件开发领域知识与创新的传播",
-    "avatar": "https://tva3.sinaimg.cn/crop.0.0.401.401.180/68147f68jw8ezff3h1n0ij20b50b5weq.jpg",
+    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/49380654_10155792144402321_1827376424009334784_n.png?_nc_cat=103&_nc_ht=scontent.fkix2-2.fna&oh=515606e1a49b08092cb762550ad3cacf&oe=5D709F2E",
     "style": 0,
     "category": "开发",
     "common": true
@@ -181,46 +181,10 @@
 
 
   {
-    "title": "唐巧",
-    "url": "http://blog.devtang.com/",
-    "description": "唐巧的博客",
-    "avatar": "https",
-    "style": 0,
-    "category": "博客",
-    "common": false
-  },
-{
-    "title": "杨萧玉",
-    "url": "http://yulingtianxia.com/",
-    "description": "玉令天下的博客",
-    "avatar": "https://avatars1.githubusercontent.com/u/433320?v=4&s=80",
-    "style": 0,
-    "category": "博客",
-    "common": false
-  },
-  {
     "title": "OneV's Den",
     "url": "https://onevcat.com/#blog",
     "description": "王巍 (@onevcat)的博客",
     "avatar": "https://onevcat.com/assets/images/avatar.jpg",
-    "style": 0,
-    "category": "博客",
-    "common": false
-  },
-  {
-    "title": "伽蓝之堂",
-    "url": "https://blog.ibireme.com/",
-    "description": "YY的博客",
-    "avatar": "https://tva4.sinaimg.cn/crop.0.0.511.511.180/93b0b730jw8exusla6aurj20e70e8dfs.jpg",
-    "style": 0,
-    "category": "博客",
-    "common": false
-  },
-  {
-    "title": "算法之道",
-    "url": "https://blog.csdn.net/v_july_v",
-    "description": "结构之法 算法之道",
-    "avatar": "https://profile.csdnimg.cn/E/0/C/1_v_july_v",
     "style": 0,
     "category": "博客",
     "common": false
@@ -240,11 +204,58 @@
     "title": "美团技术团队",
     "url": "https://tech.meituan.com/tags/ios.html",
     "description": "iOS 文章列表",
-    "avatar": "https://tva1.sinaimg.cn/crop.0.0.150.150.180/6481d4eajw8f4l9vs5wp3j20460463yi.jpg",
+    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/25299031_338025483331937_6957976230772293248_n.jpg?_nc_cat=102&_nc_ht=scontent.fkix2-2.fna&oh=11cc898c3e9cf448da91af6581c83850&oe=5D5BFB80",
     "style": 0,
     "category": "博客",
     "common": false
   },
+  {
+    "title": "伽蓝之堂",
+    "url": "https://blog.ibireme.com/",
+    "description": "YY的博客",
+    "avatar": "https://tva4.sinaimg.cn/crop.0.0.511.511.180/93b0b730jw8exusla6aurj20e70e8dfs.jpg",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
+  {
+    "title": "Bartosz Ciechanowski",
+    "url": "https://ciechanow.ski/",
+    "description": "Bartosz的博客",
+    "avatar": "https://pbs.twimg.com/profile_images/378800000415911023/1dfcb0313cbe1344bd6d96db5b452c5e_400x400.png",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
+{
+    "title": "杨萧玉",
+    "url": "http://yulingtianxia.com/",
+    "description": "玉令天下的博客",
+    "avatar": "https://avatars1.githubusercontent.com/u/433320?v=4&s=80",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
+  {
+    "title": "唐巧",
+    "url": "http://blog.devtang.com/",
+    "description": "唐巧的博客",
+    "avatar": "https://tva4.sinaimg.cn/crop.0.2.1242.1242.180/65dc76a3jw8exkme9y57dj20yi0ymabn.jpg",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
+
+  {
+    "title": "算法之道",
+    "url": "https://blog.csdn.net/v_july_v",
+    "description": "结构之法 算法之道",
+    "avatar": "https://profile.csdnimg.cn/E/0/C/1_v_july_v",
+    "style": 0,
+    "category": "博客",
+    "common": false
+  },
+  
 
 
   {
