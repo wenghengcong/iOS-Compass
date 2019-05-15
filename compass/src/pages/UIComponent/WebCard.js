@@ -72,36 +72,39 @@ class WebCard extends PureComponent {
       const linkButton = [];
 
       if (web.en_url) {
+        const enTitle = web.en_title ? web.en_title : "英文";
         linkButton.push(<Link key={web.en_url} to={web.en_url} target="_blank" onClick={(event) => {
           if (hover) {
             event.preventDefault();
             window.open(web.en_url);
           }
         }}>
-          <Button key={web.en_url} className={styles.hoverButton} type='primary'>英文</Button>
+          <Button key={web.en_url} className={styles.hoverButton} type='primary'>{enTitle}</Button>
         </Link>)
       }
 
       if (web.cn_url) {
+        const cnTitle = web.cn_title ? web.cn_title : "中文";
         linkButton.push(<Link key={web.cn_url} to={web.cn_url} target="_blank" onClick={(event) => {
             if (hover) {
               event.preventDefault();
               window.open(web.cn_url);
             }
           }}>
-            <Button key={web.cn_url} className={styles.hoverButton} type='primary'>中文</Button>
+            <Button key={web.cn_url} className={styles.hoverButton} type='primary'>{cnTitle}</Button>
           </Link>
         )
       }
 
       if (web.gb_url) {
+        const gbTitle = web.gb_title ? web.gb_title : "GitHub";
         linkButton.push(<Link key={web.gb_url} to={web.gb_url} target="_blank" onClick={(event) => {
           if (hover) {
             event.preventDefault();
             window.open(web.gb_url);
           }
         }}>
-          <Button key={web.gb_url} className={styles.hoverButton} type='primary'>GitHub</Button>
+          <Button key={web.gb_url} className={styles.hoverButton} type='primary'>{gbTitle}</Button>
         </Link>)
       }
 
