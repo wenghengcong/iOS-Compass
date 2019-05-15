@@ -6,22 +6,17 @@
   },
    {
     "name": "苹果专区",
-    "icon": "",
+    "icon": "apple",
     "child": []
   },
   {
     "name": "开发",
-    "icon": "",
+    "icon": "code",
     "child": []
   },
   {
     "name": "设计",
-    "icon": "",
-    "child": []
-  },
-  {
-    "name": "UI",
-    "icon": "",
+    "icon": "sketch",
     "child": []
   },
   {

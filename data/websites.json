@@ -73,27 +73,92 @@
   
   
   
-  
-  
+  {
+    "title": "WWDC",
+    "url": "https://developer.apple.com/videos/",
+    "en_title": "2018",
+    "cn_title": "2017",
+    "gb_title": "2016",
+    "en_url": "https://developer.apple.com/videos/wwdc2018/",
+    "cn_url": "https://developer.apple.com/videos/wwdc2017/",
+    "gb_url": "https://developer.apple.com/videos/wwdc2016/",
+    "description": "WWDC视频",
+    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/p480x480/18157364_906001416207131_3037268305909239585_n.jpg?_nc_cat=100&_nc_ht=scontent.fkix2-2.fna&oh=37e31889f5154844701e20e28e8ae0b2&oe=5D5ABC27",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
+  {
+    "title": "开发文档",
+    "url": "https://developer.apple.com/documentation/",
+    "en_title": "新版",
+    "cn_title": "旧版",
+    "en_url": "https://developer.apple.com/documentation/",
+    "cn_url": "https://developer.apple.com/library/archive/navigation/",
+    "description": "苹果官方开发工具下载",
+    "avatar": "https://",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
+  {
+    "title": "Swift",
+    "url": "https://swift.org/",
+    "en_title": "Guide",
+    "cn_title": "Resouce",
+    "en_url": "https://docs.swift.org/swift-book/index.html",
+    "cn_url": "https://developer.apple.com/swift/resources/",
+    "description": "Swift语言官网",
+    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/10373977_621614004600961_1459854713248320536_n.png?_nc_cat=105&_nc_ht=scontent.fkix2-1.fna&oh=3dedd1838fc60b0d5f0d0015d26ac972&oe=5D9ED670",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
    {
     "title": "Apple Design",
     "url": "https://developer.apple.com/design/",
     "description": "苹果设计",
-    "avatar": "https://www.apple.com/cn/leadership/jonathan-ive/bio/image_large_2x.png",
+    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/c64.23.284.284a/296498_124245797678529_2068409284_n.jpg?_nc_cat=109&_nc_ht=scontent.fkix2-1.fna&oh=12bfa2b2f8f51197997ec858ad5b3c5c&oe=5D52A218",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
+  {
+    "title": "HIG iOS",
+    "url": "https://developer.apple.com/design/human-interface-guidelines/ios",
+    "description": "人机交互指南",
+    "avatar": "https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p480x480/41884418_618307411904563_7518880867771482112_n.jpg?_nc_cat=108&_nc_ht=scontent-nrt1-1.xx&oh=2defbc8f9b8a366e1291fbf1a503399a&oe=5D61634C",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
+
+  {
+    "title": "开发下载",
+    "url": "https://developer.apple.com/download/more/",
+    "description": "苹果官方开发工具下载",
+    "avatar": "https://developer.apple.com/assets/elements/icons/xcode/xcode-96x96_2x.png",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
+  {
+    "title": "开发账户",
+    "url": "https://developer.apple.com/account/#/overview",
+    "en_title": "证书",
+    "cn_title": "Connect",
+    "en_url": "https://developer.apple.com/account/ios/certificate",
+    "cn_url": "https://appstoreconnect.apple.com",
+    "description": "开发账户：证书与App管理",
+    "avatar": "https://developer.apple.com/assets/elements/icons/testflight/testflight-64x64_2x.png",
     "style": 0,
     "category": "苹果专区",
     "common": false
   },
   
-  {
-    "title": "HIG iOS",
-    "url": "https://developer.apple.com/design/human-interface-guidelines/ios",
-    "description": "人机交互指南",
-    "avatar": "https://",
-    "style": 0,
-    "category": "dev",
-    "common": false
-  },
+
+
+
 
 
 
@@ -119,7 +184,7 @@
     "cn_url": "https://www.github.com",
     "gb_url": "https://www.github.com",
     "description": "谷歌搜索",
-    "avatar": "https://",
+    "avatar": "http",
     "style": 0,
     "category": "dev",
     "common": false
