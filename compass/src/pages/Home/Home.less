@@ -1,62 +1,98 @@
 @import "~antd/lib/style/themes/default.less";
 
-@sider-width: 150px;
 
-// 左边菜单导航栏
-.sider {
-  height: 100vh;
-  position: fixed;
-  left: 0;
-  width: 150px;
+@mobile-screen: 568px;
 
-  // 菜单部分
-  .menu {
-    width: @sider-width;
+//<=568px
+@media screen and (max-width: @mobile-screen) {
+  @normal-text-left: 80px;
+  // 左边菜单导航栏
+  .sider {
+    height: 100vh;
+    position: fixed;
+    width: @normal-text-left;
   }
-}
+  // 右边内容显示区
+  .cotainer {
+    margin-left: @normal-text-left;
 
-//常用网址
-.commonContainer {
-  //margin-top: 10px;
-  width: max-content;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-}
+    // 网页区域
+    .webContainer {
+      margin-top: 20px;
+      margin-right: 0px;
+      margin-left: 0px;
+      //background-color: green;
+      width: 100%;
 
-//常用卡片
-.commonCard {
-  width: 140px;
-  height: 140px;
-}
+      //常用网址
+      .commonContainer {
+        //margin-top: 10px;
+        width: max-content;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+      }
 
-// 右边内容显示区
-.cotainer {
-  margin-left: @sider-width;
-
-  // 网页导航区域
-  .webContainer {
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-
-    // 常用网址导航区域
-    .commonWeb {
-
-    }
-
-    // 分类导航视图区域
-    .categoryCard {
-      border-radius: 3px;
-      width: auto;
-      //background-color: #f9f9f9;
-      margin-bottom: 15px;
+      // 分类导航视图区域
+      .categoryCard {
+        border-radius: 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+        //background-color: #f9f9f9;
+        margin-bottom: 15px;
+      }
     }
   }
 }
+
+//>568px
+@media screen and (min-width: @mobile-screen) {
+  @normal-text-left: 150px;
+  .sider {
+    height: 100vh;
+    position: fixed;
+    width: @normal-text-left;
+  }
+  // 右边内容显示区
+  .cotainer {
+    margin-left: @normal-text-left;
+
+    // 网页区域
+    .webContainer {
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-left: 20px;
+      //background-color: green;
+      width: 100%;
+
+      //常用网址
+      .commonContainer {
+        //margin-top: 10px;
+        width: max-content;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+      }
+
+      // 分类导航视图区域
+      .categoryCard {
+        border-radius: 3px;
+        margin-left: 45px;
+        margin-right: 35px;
+        //width: auto;
+        //background-color: #f9f9f9;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
 
 //为了试验flex布局
 .categoryContainer {

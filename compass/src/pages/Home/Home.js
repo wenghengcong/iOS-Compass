@@ -32,6 +32,7 @@ class Home extends Component {
     commonSites: [],     // 常用网站
     categorySites: [],   // 分类网站
     isLoading: false,
+    collapsed: false,
   }
 
   componentDidMount() {
@@ -76,6 +77,13 @@ class Home extends Component {
         allCategory: allCategory,
       });
     }
+  }
+
+  handleClickScreenWidthChange = (broken) => {
+    console.log(broken);
+    this.setState({
+      collapsed: (broken ? broken : false)
+    });
   }
 
   handleClickMenu = ({item, key, keyPath}) => {
@@ -223,12 +231,14 @@ class Home extends Component {
       <div>
         <Layout>
           <Sider className={styles.sider}
+                 breakpoint='sm'
                  theme='dark'
-                 width={150}
+                 onBreakpoint={this.handleClickScreenWidthChange}
           >
-            <Menu className={styles.menu}
+            <Menu
                   theme="dark"
                   mode="inline"
+                  inlineCollapsed={this.state.collapsed}
               // subMenuCloseDelay={0.2}
               // subMenuOpenDelay={0}
               // defaultSelectedKeys={['4']}
