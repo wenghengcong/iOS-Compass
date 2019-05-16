@@ -10,7 +10,7 @@
     //margin-right: 20px;
     margin-bottom: -5px;
     border-radius: 5px;
-    width: 150px;
+    width: 130px;
     height: 70px;
   }
 
@@ -50,6 +50,13 @@
   // 描述
   .normalDesc {
     display: block;
+    // 多行文本溢出
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+
+    word-break: break-all;
     margin-left: 0;
     margin-top: -20px;
     font-size: 8px;
@@ -79,7 +86,7 @@
     margin-top: -27px;
     margin-left: @hover-text-left;
     height: 10px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     max-width: 100%;
     color: @heading-color;
@@ -108,6 +115,7 @@
 
   // 链接按钮内容区
   .hoverUrlContainer {
+    width: max-content;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -115,23 +123,34 @@
     align-content: center;
     margin-top: -22px;
     margin-left: -3px;
+    margin-right: -3px;
+  }
+
+  // 链接按钮:3个按钮中的第一个
+  .hover3ButtonFirst {
+    padding-left: 4px;
+    margin-right: 1px;
+    width: 36px;
+    height: 16px;
+    font-size: 6px;
   }
 
   // 链接按钮:3个按钮
   .hover3Button {
     padding-left: 4px;
-    //margin-right: 3px;
-    width: 40px;
+    margin-right: 1px;
+    width: 36px;
     height: 16px;
-    font-size: 10px;
+    font-size: 6px;
   }
 
   .hover2Button {
+    margin-right: 1px;
     //padding-left: 13px;
     //margin-right: 3px;
-    //width: 60px;
+    width: 55px;
     height: 16px;
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 
@@ -180,14 +199,6 @@
 
   // 描述
   .normalDesc {
-    // 多行文本溢出
-    //display: -webkit-box;
-    //-webkit-box-orient: vertical;
-    //-webkit-line-clamp: 3;
-    //overflow: hidden;
-
-    //word-break: break-all;
-
     display: block;
     margin-left: 0;
     margin-top: -18px;

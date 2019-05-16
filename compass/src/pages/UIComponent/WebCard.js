@@ -4,8 +4,10 @@ import {
   Avatar,
   Button,
   Divider,
-  Typography
+  Typography,
 } from "antd";
+import MediaQuery from 'react-responsive';
+
 import {Ellipsis} from 'ant-design-pro';
 import {BrowserRouter, Route, Link} from "react-router-dom";
 import styles from './WebCard.less';
@@ -66,9 +68,19 @@ class WebCard extends PureComponent {
           <Avatar className={styles.normalCardAvatar} src={web.avatar}/>
           <a className={styles.normalTitle}>{web.title}</a>
           <Divider className={styles.normalDivider}/>
-          <Paragraph ellipsis={{rows: 2}} className={styles.normalDesc}>
-            {web.description}
-          </Paragraph>
+          <MediaQuery maxWidth={576}>
+            {(matches) => {
+              if (matches) {
+                return <Paragraph ellipsis={{rows: 1}} className={styles.normalDesc}>
+                  {web.description}
+                </Paragraph>;
+              } else {
+                return <Paragraph ellipsis={{rows: 2}} className={styles.normalDesc}>
+                  {web.description}
+                </Paragraph>;
+              }
+            }}
+          </MediaQuery>
           {/*<a className={styles.normalDesc}></a>*/}
         </Link>
       </div>
@@ -88,8 +100,10 @@ class WebCard extends PureComponent {
         countLinks++;
       }
       var styleHoverButton = styles.hover3Button;
+      var styleHoverButtonFirst = styles.hover3ButtonFirst;
       if (countLinks == 2) {
         styleHoverButton = styles.hover2Button;
+        styleHoverButtonFirst = styles.hover2Button;
       }
 
       if (web.cn_url) {
@@ -100,7 +114,7 @@ class WebCard extends PureComponent {
               window.open(web.cn_url);
             }
           }}>
-            <Button key={web.cn_url} className={styleHoverButton} type='primary'>{cnTitle}</Button>
+            <Button key={web.cn_url} className={styleHoverButtonFirst} type='primary'>{cnTitle}</Button>
           </Link>
         )
       }
