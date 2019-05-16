@@ -231,7 +231,7 @@ class Home extends Component {
       <div>
         <Layout>
           <Sider className={styles.sider}
-                 breakpoint='sm'
+                 breakpoint={'sm'}
                  theme='dark'
                  onBreakpoint={this.handleClickScreenWidthChange}
           >
