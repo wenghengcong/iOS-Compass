@@ -146,7 +146,7 @@ class WebCard extends PureComponent {
 
     var showUI = showHoverUI ? hoverUI() : normalUI();
     return (
-      <div className={styles.card}>
+      <div>
         <Card
           hoverable
           size='small'

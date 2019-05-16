@@ -6,6 +6,7 @@ import {
   Menu,
   List,
   Layout,
+  BackTop,
 } from 'antd';
 
 
@@ -129,7 +130,9 @@ class Home extends Component {
       >
         <List
           grid={{
-            gutter: '10px', xs: 1, sm: 2, md: 4, lg: 4, xl: 5, xxl: 6,
+            // xl：1200，可是1326才有5个
+            gutter: { xs: 8, sm: 35, md: 35, lg: 24, xl: 5, xxl: 5},
+            xs: 2, sm: 2, md: 3, lg: 4, xl: 5, xxl: 6,
           }}
           dataSource={currentCateWebs}
           size='small'
@@ -260,11 +263,14 @@ class Home extends Component {
               {categoryCards}
             </Content>
             <Footer style={{textAlign: 'center'}}>
+
               Luci Design ©2019 Created by 翁恒丛
             </Footer>
           </Layout>
         </Layout>
 
+        <BackTop>
+        </BackTop>
       </div>
     );
   }
