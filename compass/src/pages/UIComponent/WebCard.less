@@ -14,7 +14,7 @@
     height: 70px;
   }
 
-  @normal-text-left: 35px;
+  @normal-text-left: 28px;
   @desc-text-color: #585858;
 
   // 头像区域
@@ -23,7 +23,7 @@
     margin-left: -5px;
     width: 30px;
     height: 30px;
-    border-radius: 45px;
+    border-radius: 30px;
   }
 
   .normalTitle {
@@ -70,25 +70,28 @@
     }
   }
 
-  @hover-text-left: 40px;
+  @hover-text-left: 28px;
 
   // 头像区域
   .hoverCardAvatar {
     margin-top: -5px;
     margin-left: -5px;
-    width: 32px;
-    height: 32px;
-    border-radius: 35px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
   }
 
   .hoverTitle {
     display: block;
-    margin-top: -27px;
+    white-space:nowrap;
+    margin-top: -23px;//越大约下
     margin-left: @hover-text-left;
     height: 10px;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
-    max-width: 100%;
+    text-align: left;
+    width:fit-content;
+    width:-moz-fit-content;
     color: @heading-color;
     &:hover {
       color: @heading-color;
@@ -119,38 +122,38 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
-    margin-top: -22px;
-    margin-left: -3px;
+    margin-top: -24px;
+    margin-left: -4px;
     margin-right: -3px;
   }
 
-  // 链接按钮:3个按钮中的第一个
-  .hover3ButtonFirst {
-    padding-left: 4px;
-    margin-right: 1px;
-    width: 36px;
-    height: 16px;
-    font-size: 6px;
-  }
-
   // 链接按钮:3个按钮
-  .hover3Button {
-    padding-left: 4px;
-    margin-right: 1px;
-    width: 36px;
+  .hover1Button {
+    padding-left: 8px;
+    margin-right: 10px;
+    //align-content: center;
+    width: 80px;
     height: 16px;
     font-size: 6px;
   }
 
   .hover2Button {
-    margin-right: 1px;
     //padding-left: 13px;
-    //margin-right: 3px;
+    margin-right: 1px;
     width: 55px;
     height: 16px;
-    font-size: 8px;
+    font-size: 6px;
+  }
+
+  .hover3Button {
+    padding-left: 4px;
+    //padding-top: -5px;
+    margin-right: 1px;
+    width: 38px;
+    height: 16px;
+    font-size: 5px;
   }
 }
 
@@ -174,7 +177,7 @@
     margin-left: -5px;
     width: 35px;
     height: 35px;
-    border-radius: 45px;
+    border-radius: 35px;
   }
 
   .normalTitle {
@@ -213,14 +216,14 @@
     }
   }
 
-  @hover-text-left: 45px;
+  @hover-text-left: 40px;
 
   // 头像区域
   .hoverCardAvatar {
-    margin-top: -5px;
+    margin-top: -6px;
     margin-left: -5px;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 38px;
     border-radius: 35px;
   }
 
@@ -229,7 +232,7 @@
     margin-top: -32px;
     margin-left: @hover-text-left;
     height: 10px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     max-width: 100%;
     color: @heading-color;
@@ -261,27 +264,38 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
     margin-top: -22px;
     margin-left: -3px;
   }
 
   // 链接按钮:3个按钮
-  .hover3Button {
+  .hover1Button {
     padding-left: 8px;
     //margin-right: 3px;
-    width: 47px;
+    //align-content: center;
+    width: 70px;
     height: 20px;
     font-size: 12px;
   }
 
   .hover2Button {
     //padding-left: 13px;
-    //margin-right: 3px;
+    margin-right: 3px;
     //width: 60px;
     height: 20px;
     font-size: 12px;
   }
+
+  .hover3Button {
+    padding-left: 8px;
+    margin-right: 3px;
+    width: 47px;
+    height: 20px;
+    font-size: 12px;
+  }
+
+
 }
 

@@ -55,7 +55,7 @@ class WebCard extends PureComponent {
   render() {
     const web = this.props.web;
     const hover = this.state.hover;
-    const hasLinkUrl = web.cn_url ? true : ((web.en_url) ? true : ((web.gb_url) ? true : false));
+    const hasLinkUrl = web.one_url ? true : ((web.sec_url) ? true : ((web.thi_url) ? true : false));
     // 只有有三个其中之一的外链，以及鼠标在上面时，才显示
     const showHoverUI = hover && hasLinkUrl;
 
@@ -90,57 +90,67 @@ class WebCard extends PureComponent {
       const linkButton = [];
 
       var countLinks = 0;
-      if (web.cn_url) {
+      if (web.one_url) {
         countLinks++;
       }
-      if (web.en_url) {
+      if (web.sec_url) {
         countLinks++;
       }
-      if (web.gb_url) {
+      if (web.thi_url) {
         countLinks++;
-      }
-      var styleHoverButton = styles.hover3Button;
-      var styleHoverButtonFirst = styles.hover3ButtonFirst;
-      if (countLinks == 2) {
-        styleHoverButton = styles.hover2Button;
-        styleHoverButtonFirst = styles.hover2Button;
       }
 
-      if (web.cn_url) {
-        const cnTitle = web.cn_title ? web.cn_title : "中文";
-        linkButton.push(<Link key={web.cn_url} to={web.cn_url} target="_blank" onClick={(event) => {
+
+      var styleHoverButtonFirst = styles.hover3ButtonFirst;
+      var styleHoverButtonSecond = styles.hover3ButtonFirst;
+      var styleHoverButtonThird = styles.hover3ButtonFirst;
+
+      if (countLinks == 1) {
+        styleHoverButtonFirst = styles.hover1Button;
+      } else if (countLinks == 2) {
+        styleHoverButtonFirst = styles.hover2Button;
+        styleHoverButtonSecond = styles.hover2Button;
+      } else {
+        styleHoverButtonFirst = styles.hover3Button;
+        styleHoverButtonSecond = styles.hover3Button;
+        styleHoverButtonThird = styles.hover3Button;
+      }
+
+      if (web.one_url) {
+        const oneTitle = web.one_title ? web.one_title : "中文";
+        linkButton.push(<Link key={web.one_url} to={web.one_url} target="_blank" onClick={(event) => {
             if (hover) {
               event.preventDefault();
-              window.open(web.cn_url);
+              window.open(web.one_url);
             }
           }}>
-            <Button key={web.cn_url} className={styleHoverButtonFirst} type='primary'>{cnTitle}</Button>
+            <Button key={web.one_url} className={styleHoverButtonFirst} type='primary'>{oneTitle}</Button>
           </Link>
         )
       }
 
-      if (web.en_url) {
-        const enTitle = web.en_title ? web.en_title : "英文";
-        linkButton.push(<Link key={web.en_url} to={web.en_url} target="_blank" onClick={(event) => {
+      if (web.sec_url) {
+        const secTitle = web.sec_title ? web.sec_title : "英文";
+        linkButton.push(<Link key={web.sec_url} to={web.sec_url} target="_blank" onClick={(event) => {
           if (hover) {
             event.preventDefault();
-            window.open(web.en_url);
+            window.open(web.sec_url);
           }
         }}>
-          <Button key={web.en_url} className={styleHoverButton} type='primary'>{enTitle}</Button>
+          <Button key={web.sec_url} className={styleHoverButtonSecond} type='primary'>{secTitle}</Button>
         </Link>)
       }
 
 
-      if (web.gb_url) {
-        const gbTitle = web.gb_title ? web.gb_title : "GitHub";
-        linkButton.push(<Link key={web.gb_url} to={web.gb_url} target="_blank" onClick={(event) => {
+      if (web.thi_url) {
+        const thiTitle = web.thi_title ? web.thi_title : "GitHub";
+        linkButton.push(<Link key={web.thi_url} to={web.thi_url} target="_blank" onClick={(event) => {
           if (hover) {
             event.preventDefault();
-            window.open(web.gb_url);
+            window.open(web.thi_url);
           }
         }}>
-          <Button key={web.gb_url} className={styleHoverButton} type='primary'>{gbTitle}</Button>
+          <Button key={web.thi_url} className={styleHoverButtonThird} type='primary'>{thiTitle}</Button>
         </Link>)
       }
 
