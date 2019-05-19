@@ -9,6 +9,16 @@
     "icon": "apple",
     "children": []
   },
+   {
+    "name": "算法",
+    "icon": "algo",
+    "children": []
+  },
+   {
+    "name": "GitHub专区",
+    "icon": "github",
+    "children": []
+  },
   {
     "name": "开发",
     "icon": "code",
@@ -17,19 +27,18 @@
        "name": "博客",
        "icon": "apple",
        "children": []
-      }
+      },
+      {
+        "name": "iOS",
+        "icon": "apple",
+        "children": []
+       }
     ]
   },
   {
     "name": "设计",
     "icon": "sketch",
-    "children": [
-      {
-        "name": "测试",
-        "icon": "apple",
-        "children": []
-       }
-    ]
+    "children": []
   },
   {
     "name": "产品",
