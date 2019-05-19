@@ -184,6 +184,71 @@
     "category": "开发",
     "common": false
   },
+  {
+    "title": "iOS开发路线图",
+    "url": "https://github.com/BohdanOrlov/iOS-Developer-Roadmap",
+    "description": "iOS开发发展路线图",
+    "avatar": "",
+    "style": 1,
+    "category": "开发",
+    "common": false
+  },
+  {
+    "title": "Awesome iOS",
+    "url": "https://github.com/vsouza/awesome-ios",
+    "one_title" : "中文",
+    "one_url": "https://github.com/Tim9Liu9/TimLiu-iOS#%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE",
+    "description": "iOS 列表",
+    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  }, 
+  {
+    "title": "Awesome Swift",
+    "url":"https://github.com/matteocrippa/awesome-swift",
+    "one_title" : "同类",
+    "one_url": "https://github.com/Wolg/awesome-swift",
+    "description": "Swift列表",
+    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  }, 
+  {
+    "title": "iOS开发者",
+    "url": "https://github.com/app-developers/top",
+    "description": "iOS 开发者列表",
+    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/46146_148729141812692_285601_n.jpg?_nc_cat=101&_nc_ht=scontent.fkix2-1.fna&oh=f57f900baf26cb300dd0e4f4c89143a8&oe=5D9CFB16",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  },{
+    "title": "iOS学习资源",
+    "url": "https://github.com/jVirus/iOS-Learning-Materials",
+    "description": "iOS学习资源整理",
+    "avatar": "https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/c125.0.480.480a/p480x480/10390385_317667855071539_183047746307636535_n.jpg?_nc_cat=100&_nc_ht=scontent-nrt1-1.xx&oh=a5558efa939affce63b634a3ccbb62d3&oe=5D6557C8",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  },{
+    "title": "iOS动画",
+    "url": "https://github.com/ameizi/awesome-ios-animation",
+    "description": "iOS动画库索引",
+    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  },
+  {
+    "title": "little bites",
+    "url": "https://littlebitesofcocoa.com/",
+    "description": "iOS、Mac开发技巧",
+    "avatar": "https://pbs.twimg.com/profile_images/532438111465136129/4zjkqdX6_400x400.png",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  },
 
 
 
@@ -196,7 +261,8 @@
     "style": 0,
     "category": "博客",
     "common": false
-  },{
+  },
+  {
     "title": "OneV's Den",
     "url": "https://onevcat.com/#blog",
     "description": "王巍 (@onevcat)的博客",
@@ -260,80 +326,32 @@
     "category": "博客",
     "common": false
   },
-  {
-    "title": "算法之道",
-    "url": "https://blog.csdn.net/v_july_v",
-    "description": "结构之法 算法之道",
-    "avatar": "https://profile.csdnimg.cn/E/0/C/1_v_july_v",
-    "style": 0,
-    "category": "博客",
-    "common": false
-  },
   
 
-  {
-    "title": "Awesome iOS",
-    "url": "https://github.com/vsouza/awesome-ios",
-    "one_title" : "中文",
-    "one_url": "https://github.com/Tim9Liu9/TimLiu-iOS#%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE",
-    "description": "iOS 列表",
-    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
-    "style": 0,
-    "category": "iOS",
-    "common": false
-  }, 
-  {
-    "title": "Awesome Swift",
-    "url":"https://github.com/matteocrippa/awesome-swift",
-    "one_title" : "同类",
-    "one_url": "https://github.com/Wolg/awesome-swift",
-    "description": "Swift列表",
-    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
-    "style": 0,
-    "category": "iOS",
-    "common": false
-  }, 
-  {
-    "title": "iOS开发者",
-    "url": "https://github.com/app-developers/top",
-    "description": "iOS 开发者列表",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/46146_148729141812692_285601_n.jpg?_nc_cat=101&_nc_ht=scontent.fkix2-1.fna&oh=f57f900baf26cb300dd0e4f4c89143a8&oe=5D9CFB16",
-    "style": 0,
-    "category": "iOS",
-    "common": false
-  },{
-    "title": "iOS学习资源",
-    "url": "https://github.com/jVirus/iOS-Learning-Materials",
-    "description": "iOS学习资源整理",
-    "avatar": "https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/c125.0.480.480a/p480x480/10390385_317667855071539_183047746307636535_n.jpg?_nc_cat=100&_nc_ht=scontent-nrt1-1.xx&oh=a5558efa939affce63b634a3ccbb62d3&oe=5D6557C8",
-    "style": 0,
-    "category": "iOS",
-    "common": false
-  },{
-    "title": "iOS动画",
-    "url": "https://github.com/ameizi/awesome-ios-animation",
-    "description": "iOS动画库索引",
-    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
-    "style": 0,
-    "category": "iOS",
-    "common": false
-  },
-  {
-    "title": "little bites",
-    "url": "https://littlebitesofcocoa.com/",
-    "description": "iOS、Mac开发技巧",
-    "avatar": "https://pbs.twimg.com/profile_images/532438111465136129/4zjkqdX6_400x400.png",
-    "style": 0,
-    "category": "iOS",
-    "common": false
-  },
+  
 
+
+  {
+    "title": "Leetcode",
+    "url": "https://leetcode.com/problemset/all/",
+    "one_title" : "中文",
+    "one_url": "https://leetcode-cn.com/problemset/all/",
+    "sec_title": "Swift",
+    "sec_url": "https://github.com/soapyigu/LeetCode-Swift",
+    "thi_title":"Java",
+    "thi_url":"https://github.com/fishercoder1534/Leetcode",
+    "description": "Leetcode刷题",
+    "avatar": "https://tvax2.sinaimg.cn/crop.0.0.510.510.180/e5617f77ly1fyc9jnivibj20e60e6jsa.jpg",
+    "style": 0,
+    "category": "算法",
+    "common": false
+  },
   {
     "title": "面试题",
     "url": "https://github.com/MaximAbramchuck/awesome-interview-questions",
     "one_title" : "iOS",
     "one_url": "https://github.com/MaximAbramchuck/awesome-interview-questions#ios",
-    "description": "一大波面试题来袭",
+    "description": "全类型的面试题",
     "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/c7.0.165.165a/554975_374605585893904_526660118_n.jpg?_nc_cat=102&_nc_ht=scontent.fkix2-2.fna&oh=cf66ccb48828c2ffb218f9b5c5b49341&oe=5D7057A7",
     "style": 0,
     "category": "算法",
@@ -341,7 +359,15 @@
   },{
     "title": "iOS面试题",
     "url": "https://github.com/dashvlas/awesome-ios-interview",
-    "description": "iOS面试题整理",
+    "description": "Awesome iOS面试题整理",
+    "avatar": "https://raw.githubusercontent.com/dashvlas/awesome-ios-interview/master/Resources/Main.png",
+    "style": 0,
+    "category": "算法",
+    "common": false
+  },{
+    "title": "阿里iOS面试题",
+    "url": "https://hit-alibaba.github.io/interview/",
+    "description": "阿里iOS面试题整理",
     "avatar": "https://raw.githubusercontent.com/dashvlas/awesome-ios-interview/master/Resources/Main.png",
     "style": 0,
     "category": "算法",
@@ -389,7 +415,7 @@
     "title": "Behance",
     "url": "https://www.behance.net/",
     "description": "展示和发现创意作品",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/11899935_10154304248500752_6721878418822068654_n.jpg?_nc_cat=105&_nc_ht=scontent.fkix2-1.fna&oh=acdce1214473a2c7833082f21c3ddd94&oe=5D6537EF",
+    "avatar": "https://tvax1.sinaimg.cn/crop.0.0.256.256.180/725073c9ly8fmo84d3r15j20740740so.jpg",
     "style": 0,
     "category": "设计",
     "common": false
@@ -419,6 +445,24 @@
     "url": "https://www.producthunt.com/",
     "description": "发现产品",
     "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/10408560_1572472259705950_8541620573116501881_n.png?_nc_cat=109&_nc_ht=scontent.fkix2-1.fna&oh=315cca9b0a5f20110bcefffde4cc32b3&oe=5D70B538",
+    "style": 0,
+    "category": "产品",
+    "common": false
+  },
+  {
+    "title": "36Kr Next",
+    "url": "http://next.36kr.com/posts",
+    "description": "不错过任何一个好产品",
+    "avatar": "https://tva3.sinaimg.cn/crop.63.74.689.689.180/005K2s2Xgw1ejkh661w9wj30nw0nwgm1.jpg",
+    "style": 0,
+    "category": "产品",
+    "common": false
+  },
+  {
+    "title": "少数派",
+    "url": "https://sspai.com/",
+    "description": "数字时代的生活方式",
+    "avatar": "https://tva2.sinaimg.cn/crop.0.0.1239.1239.180/72157b63jw8f6bxfg3yixj20yf0yf75t.jpg",
     "style": 0,
     "category": "产品",
     "common": false
