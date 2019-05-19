@@ -120,12 +120,17 @@ class Home extends Component {
     }
   }
 
-  generateCategoryBoard = (category) => {
-    const cateWebsites = this.state.categorySites;
-    const currentCateWebs = cateWebsites.filter(web => web.category === category.name);
+  generateCategoryBoard = (fatherCate, category, weibistes) => {
+
+    var categoryName = category.name;
+    if (fatherCate != undefined && fatherCate != null
+     && fatherCate.length > 0) {
+      categoryName = fatherCate + "＞" + category.name;
+    }
+
     const currentCateCard = <div id={category.name}>
       <Card
-        title={category.name}
+        title={categoryName}
         className={styles.categoryCard}
       >
         <List
@@ -134,7 +139,7 @@ class Home extends Component {
             gutter: { xs: 8, sm: 35, md: 35, lg: 24, xl: 5, xxl: 5},
             xs: 2, sm: 2, md: 3, lg: 4, xl: 5, xxl: 6,
           }}
-          dataSource={currentCateWebs}
+          dataSource={weibistes}
           size='small'
           renderItem={web => (
             <List.Item key={web.url}>
@@ -211,18 +216,26 @@ class Home extends Component {
     if (cateWebsites.length > 0) {
       allCategory.map((firstLevelItem) => {
 
-        const currentCateCard = this.generateCategoryBoard(firstLevelItem);
-        if (firstLevelItem.name !== '常用') {
+        const cateWebsites = this.state.categorySites;
+        const currentCateWebs = cateWebsites.filter(web => web.category === firstLevelItem.name);
+
+        const currentCateCard = this.generateCategoryBoard( "", firstLevelItem, currentCateWebs);
+        if (firstLevelItem.name !== '常用' && currentCateWebs != undefined
+          && currentCateWebs != null && currentCateWebs.length > 0) {
           categoryCards.push(currentCateCard);
-        }
-        ;
+        };
+
         // 有子分类，将构建子分类的board
         if (firstLevelItem.children != undefined && firstLevelItem.children != null
           && firstLevelItem.children.length > 0) {
 
           firstLevelItem.children.map((child) => {
-            const currentCateCard = this.generateCategoryBoard(child);
-            if (child.name !== '常用') {
+            const cateWebsites = this.state.categorySites;
+            const childWebsites = cateWebsites.filter(web => web.category === child.name);
+
+            const currentCateCard = this.generateCategoryBoard( firstLevelItem.name, child, childWebsites);
+            if (child.name !== '常用' && childWebsites != undefined
+            && childWebsites != null && childWebsites.length > 0) {
               categoryCards.push(currentCateCard);
             }
           });
