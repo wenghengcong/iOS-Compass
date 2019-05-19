@@ -44,5 +44,10 @@
     "name": "产品",
     "icon": "appstore",
     "children": []
+  },
+  {
+    "name": "导航",
+    "icon": "compass",
+    "children": []
   }
 ]

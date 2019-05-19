@@ -404,7 +404,7 @@
   },{
     "title": "Medium Design",
     "url": "https://medium.com/topic/design",
-    "description": "矢量图标管理、交流平台",
+    "description": "Medium 设计频道",
     "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/20992949_1637457056266113_1742605117344903369_n.png?_nc_cat=105&_nc_ht=scontent.fkix2-1.fna&oh=f05dab2fb469da1b9f67e19fcfb35392&oe=5D5BD573",
     "style": 0,
     "category": "设计",
@@ -433,6 +433,43 @@
     "common": false
   },
 
+
+  {
+    "title": "兰客导航",
+    "url": "http://lackk.com/nav/",
+    "description": "精选，全面",
+    "avatar": "",
+    "style": 1,
+    "category": "导航",
+    "common": false
+  },
+  {
+    "title": "WebStack",
+    "url": "http://webstack.cc/cn/index.html",
+    "description": "设计师网址导航",
+    "avatar": "",
+    "style": 1,
+    "category": "导航",
+    "common": false
+  },
+  {
+    "title": "发现导航",
+    "url": "http://nav.xiejiahe.com",
+    "description": "开发、设计、运营",
+    "avatar": "https",
+    "style": 1,
+    "category": "导航",
+    "common": false
+  },
+  {
+    "title": "导航湾",
+    "url": "http://daohangwan.com/",
+    "description": "按职业分类导航",
+    "avatar": "https",
+    "style": 1,
+    "category": "导航",
+    "common": false
+  },
 
 
   {
