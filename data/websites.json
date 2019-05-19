@@ -304,7 +304,7 @@
   },{
     "title": "iOS学习资源",
     "url": "https://github.com/jVirus/iOS-Learning-Materials",
-    "description": "iOS学习资源整理，非常丰富",
+    "description": "iOS学习资源整理",
     "avatar": "https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/c125.0.480.480a/p480x480/10390385_317667855071539_183047746307636535_n.jpg?_nc_cat=100&_nc_ht=scontent-nrt1-1.xx&oh=a5558efa939affce63b634a3ccbb62d3&oe=5D6557C8",
     "style": 0,
     "category": "iOS",
@@ -319,24 +319,45 @@
     "common": false
   },
   {
-    "title": "little bites of cocoa",
+    "title": "little bites",
     "url": "https://littlebitesofcocoa.com/",
-    "description": "tips and techniques for iOS and Mac development",
+    "description": "iOS、Mac开发技巧",
     "avatar": "https://pbs.twimg.com/profile_images/532438111465136129/4zjkqdX6_400x400.png",
     "style": 0,
     "category": "iOS",
     "common": false
   },
-  
+
+  {
+    "title": "面试题",
+    "url": "https://github.com/MaximAbramchuck/awesome-interview-questions",
+    "one_title" : "iOS",
+    "one_url": "https://github.com/MaximAbramchuck/awesome-interview-questions#ios",
+    "description": "一大波面试题来袭",
+    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/c7.0.165.165a/554975_374605585893904_526660118_n.jpg?_nc_cat=102&_nc_ht=scontent.fkix2-2.fna&oh=cf66ccb48828c2ffb218f9b5c5b49341&oe=5D7057A7",
+    "style": 0,
+    "category": "算法",
+    "common": false
+  },{
+    "title": "iOS面试题",
+    "url": "https://github.com/dashvlas/awesome-ios-interview",
+    "description": "iOS面试题整理",
+    "avatar": "https://raw.githubusercontent.com/dashvlas/awesome-ios-interview/master/Resources/Main.png",
+    "style": 0,
+    "category": "算法",
+    "common": false
+  },
 
 
   {
     "title": "Awesome",
     "url": "https://github.com/sindresorhus/awesome",
+    "one_title" : "同类",
+    "one_url": "https://github.com/bayandin/awesome-awesomeness",
     "description": "Awesome 项目列表",
     "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
     "style": 0,
-    "category": "iOS",
+    "category": "GitHub",
     "common": false
   }, {
     "title": "mac开源软件",
@@ -344,7 +365,7 @@
     "description": "mac开源软件",
     "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/21558653_10155841161354421_2421754363362084748_n.jpg?_nc_cat=1&_nc_ht=scontent.fkix2-1.fna&oh=d28453c19d0efb5d36ea1222ad4a1ad1&oe=5D680D10",
     "style": 0,
-    "category": "GitHub专区",
+    "category": "GitHub",
     "common": false
   }, {
     "title": "iOS开源软件",
@@ -352,14 +373,14 @@
     "description": "iOS开源软件",
     "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/21558653_10155841161354421_2421754363362084748_n.jpg?_nc_cat=1&_nc_ht=scontent.fkix2-1.fna&oh=d28453c19d0efb5d36ea1222ad4a1ad1&oe=5D680D10",
     "style": 0,
-    "category": "GitHub专区",
+    "category": "GitHub",
     "common": false
   },
   
   {
     "title": "Dribbble",
     "url": "http://dribbble.com/",
-    "description": "Discover the rorld's top designers & creatives",
+    "description": "发现设计师和创意",
     "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/1549561_191435177719722_1946235595_n.png?_nc_cat=106&_nc_ht=scontent.fkix2-1.fna&oh=34de37a325a9c9ab58c896f69806be6c&oe=5D545E88",
     "style": 0,
     "category": "设计",
@@ -397,7 +418,7 @@
     "title": "Product Hunt",
     "url": "https://www.producthunt.com/",
     "description": "发现产品",
-    "avatar": "https",
+    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/10408560_1572472259705950_8541620573116501881_n.png?_nc_cat=109&_nc_ht=scontent.fkix2-1.fna&oh=315cca9b0a5f20110bcefffde4cc32b3&oe=5D70B538",
     "style": 0,
     "category": "产品",
     "common": false
@@ -405,8 +426,8 @@
   {
     "title": "产品运营",
     "url": "https://github.com/LisaDziuba/Marketing-for-Engineers",
-    "description": "GitHub收集：产品运营文章和工具",
-    "avatar": "https",
+    "description": "产品运营文章和工具",
+    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/21558653_10155841161354421_2421754363362084748_n.jpg?_nc_cat=1&_nc_ht=scontent.fkix2-1.fna&oh=d28453c19d0efb5d36ea1222ad4a1ad1&oe=5D680D10",
     "style": 0,
     "category": "产品",
     "common": false
