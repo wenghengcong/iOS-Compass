@@ -41,6 +41,17 @@
     "children": []
   },
   {
+    "name": "下载",
+    "icon": "download",
+    "children": [
+      {
+        "name": "图书",
+        "icon": "book",
+        "children": []
+       }
+    ]
+  },
+  {
     "name": "导航",
     "icon": "compass",
     "children": []

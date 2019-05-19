@@ -99,6 +99,19 @@
     "common": false
   },
   {
+    "title": "苹果开源",
+    "url": "https://opensource.apple.com/",
+    "one_title": "GNU实现",
+    "one_url": "http://gnustep.org/",
+    "sec_title":"objc",
+    "sec_url":"https://opensource.apple.com/tarballs/objc4/",
+    "description": "开源代码和工具",
+    "avatar": "https://opensource.apple.com/static/images/black_grad_small.png",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
+  {
     "title": "Swift",
     "url": "https://swift.org/",
     "sec_title": "指南",
@@ -133,6 +146,8 @@
   {
     "title": "开发下载",
     "url": "https://developer.apple.com/download/more/",
+    "one_title":"Xcode 使用",
+    "one_url":"https://help.apple.com/xcode/mac/10.2/",
     "description": "苹果官方开发工具下载",
     "avatar": "https://developer.apple.com/assets/elements/icons/xcode/xcode-96x96_2x.png",
     "style": 0,
@@ -152,7 +167,63 @@
     "category": "苹果专区",
     "common": false
   },
+  {
+    "title": "LLVM",
+    "url": "http://llvm.org/",
+    "one_title":"Clang",
+    "one_url":"http://clang.llvm.org/",
+    "description": "LLVM编译器",
+    "avatar": "http://llvm.org/img/DragonSmall.png",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
+  {
+    "title": "iOS系统占比",
+    "url": "https://developer.apple.com/support/app-store/",
+    "description": "各系统占比",
+    "avatar": "https://km.support.apple.com/kb/image.jsp?productid=505753&size=240x240",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
+  {
+    "title": "iPhone技术规格",
+    "url": "https://support.apple.com/zh_CN/specs/iphone",
+    "description": "iPhone型号规格大全",
+    "avatar": "https://km.support.apple.com/kb/image.jsp?productid=505753&size=240x240",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
+  {
+    "title": "iPhone分辨率",
+    "url": "https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions",
+    "description": "iPhone全型号分辨率",
+    "avatar": "https://www.paintcodeapp.com/images/paintcode3-logo.svg",
+    "style": 0,
+    "category": "苹果专区",
+    "common": false
+  },
 
+
+
+
+
+
+
+
+  {
+    "title": "Awesome iOS",
+    "url": "https://github.com/vsouza/awesome-ios",
+    "one_title" : "中文",
+    "one_url": "https://github.com/Tim9Liu9/TimLiu-iOS#%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE",
+    "description": "iOS 列表",
+    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  }, 
   {
     "title": "iOS Dev Weekly",
     "url": "https://iosdevweekly.com/",
@@ -188,22 +259,12 @@
     "title": "iOS开发路线图",
     "url": "https://github.com/BohdanOrlov/iOS-Developer-Roadmap",
     "description": "iOS开发发展路线图",
-    "avatar": "",
-    "style": 1,
-    "category": "开发",
-    "common": false
-  },
-  {
-    "title": "Awesome iOS",
-    "url": "https://github.com/vsouza/awesome-ios",
-    "one_title" : "中文",
-    "one_url": "https://github.com/Tim9Liu9/TimLiu-iOS#%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE",
-    "description": "iOS 列表",
-    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
+    "avatar": "https://tvax4.sinaimg.cn/crop.51.0.1029.1029.180/771afc5cly8g2febyodylj20u00u0dhl.jpg",
     "style": 0,
     "category": "开发",
     "common": false
-  }, 
+  },
+  
   {
     "title": "Awesome Swift",
     "url":"https://github.com/matteocrippa/awesome-swift",
@@ -249,6 +310,9 @@
     "category": "开发",
     "common": false
   },
+
+
+
 
 
 
@@ -478,6 +542,10 @@
   },
 
 
+
+
+
+
   {
     "title": "兰客导航",
     "url": "http://lackk.com/nav/",
@@ -514,6 +582,61 @@
     "category": "导航",
     "common": false
   },
+
+
+
+
+
+  {
+    "title": "IT ebooks",
+    "url": "http://www.allitebooks.org/",
+    "description": "IT书籍多，下载方便",
+    "avatar": "https://pbs.twimg.com/profile_images/935197078552285186/LYeaMjCo_400x400.jpg",
+    "style": 0,
+    "category": "图书",
+    "common": false
+  },
+  {
+    "title": "IT ebooks",
+    "url": "https://www.foxebook.net/",
+    "description": "IT资源丰富，下载稍麻烦",
+    "avatar": "https://pbs.twimg.com/profile_images/3712542918/e0a20cfb4126e775c06369e4d4491276_400x400.jpeg",
+    "style": 0,
+    "category": "图书",
+    "common": false
+  },
+  {
+    "title": "DevFreeBooks",
+    "url": "https://devfreebooks.github.io/",
+    "description": "语言分类，均免费",
+    "avatar": "https://ph-files.imgix.net/18ff104c-3e42-466a-a913-3e18c9d3d831",
+    "style": 0,
+    "category": "图书",
+    "common": false
+  },
+  {
+    "title": "古登堡项目",
+    "url": "http://www.gutenberg.org/",
+    "description": "公有领域书籍",
+    "avatar": "https://pbs.twimg.com/profile_images/1119345517421637632/qPSwl88-_400x400.png",
+    "style": 0,
+    "category": "图书",
+    "common": false
+  },
+  {
+    "title": "E reading",
+    "url": "https://www.e-reading.pw/",
+    "description": "英文书籍",
+    "avatar": "https://pbs.twimg.com/profile_images/1684600157/iereader_400x400.jpg",
+    "style": 0,
+    "category": "图书",
+    "common": false
+  },
+
+
+
+
+
 
 
   {
