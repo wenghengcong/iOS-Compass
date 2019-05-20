@@ -21,7 +21,7 @@
     "title": "iOS Dev Tools",
     "url": "https://iosdev.tools/",
     "description": "iOS development tools",
-    "avatar": "https://pbs.twimg.com/profile_images/1109095291888783362/z2gYSGLG_400x400.png",
+    "avatar": "https://pbs.twimg.com/profile_images/1109095291888783362/z2gYSGLG_200x200.png",
     "style": 0,
     "category": "开发",
     "common": true
@@ -52,7 +52,7 @@
     "title": "Big Nerd Ranch",
     "url": "https://www.bignerdranch.com/blog/categories/ios/",
     "description": "We’re focused on illuminating the possibilities of mobile and emerging technology",
-    "avatar": "https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-1/p200x200/55908371_10161497346880012_4077490914002468864_n.png?_nc_cat=103&_nc_ht=scontent-ams3-1.xx&oh=4132f5bd547b3046380011d94320b674&oe=5D65FC57",
+    "avatar": "https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-1/p200x200/55908371_10161497346880012_4077490912002468864_n.png?_nc_cat=103&_nc_ht=scontent-ams3-1.xx&oh=4132f5bd547b3046380011d94320b674&oe=5D65FC57",
     "style": 0,
     "category": "开发",
     "common": true
@@ -61,7 +61,7 @@
     "title": "InfoQ",
     "url": "https://www.infoq.cn/",
     "description": "促进软件开发领域知识与创新的传播",
-    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/49380654_10155792144402321_1827376424009334784_n.png?_nc_cat=103&_nc_ht=scontent.fkix2-2.fna&oh=515606e1a49b08092cb762550ad3cacf&oe=5D709F2E",
+    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/49380654_10155792144402321_1827376422009334784_n.png?_nc_cat=103&_nc_ht=scontent.fkix2-2.fna&oh=515606e1a49b08092cb762550ad3cacf&oe=5D709F2E",
     "style": 0,
     "category": "开发",
     "common": true
@@ -119,7 +119,7 @@
     "sec_url": "https://docs.swift.org/swift-book/index.html",
     "one_url": "https://developer.apple.com/swift/resources/",
     "description": "Swift语言官网",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/10373977_621614004600961_1459854713248320536_n.png?_nc_cat=105&_nc_ht=scontent.fkix2-1.fna&oh=3dedd1838fc60b0d5f0d0015d26ac972&oe=5D9ED670",
+    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/10373977_621612004600961_1459854713248320536_n.png?_nc_cat=105&_nc_ht=scontent.fkix2-1.fna&oh=3dedd1838fc60b0d5f0d0015d26ac972&oe=5D9ED670",
     "style": 0,
     "category": "苹果专区",
     "common": false
@@ -219,7 +219,7 @@
     "one_title" : "中文",
     "one_url": "https://github.com/Tim9Liu9/TimLiu-iOS#%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE",
     "description": "iOS 列表",
-    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
+    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_200x200.jpg",
     "style": 0,
     "category": "开发",
     "common": false
@@ -241,7 +241,7 @@
     "sec_url": "https://www.objc.io/issues/",
     "one_url": "https://objccn.io/issues/",
     "description": "Apple开发集锦",
-    "avatar": "https://pbs.twimg.com/profile_images/606838270652252160/k5FKkLvB_400x400.png",
+    "avatar": "https://pbs.twimg.com/profile_images/606838270652252160/k5FKkLvB_200x200.png",
     "style": 0,
     "category": "开发",
     "common": false
@@ -271,7 +271,7 @@
     "one_title" : "同类",
     "one_url": "https://github.com/Wolg/awesome-swift",
     "description": "Swift列表",
-    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
+    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_200x200.jpg",
     "style": 0,
     "category": "开发",
     "common": false
@@ -296,7 +296,7 @@
     "title": "iOS动画",
     "url": "https://github.com/ameizi/awesome-ios-animation",
     "description": "iOS动画库索引",
-    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
+    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_200x200.jpg",
     "style": 0,
     "category": "开发",
     "common": false
@@ -305,7 +305,7 @@
     "title": "little bites",
     "url": "https://littlebitesofcocoa.com/",
     "description": "iOS、Mac开发技巧",
-    "avatar": "https://pbs.twimg.com/profile_images/532438111465136129/4zjkqdX6_400x400.png",
+    "avatar": "https://pbs.twimg.com/profile_images/532438111465136129/4zjkqdX6_200x200.png",
     "style": 0,
     "category": "开发",
     "common": false
@@ -368,7 +368,7 @@
     "title": "Bartosz",
     "url": "https://ciechanow.ski/",
     "description": "Bartosz的博客",
-    "avatar": "https://pbs.twimg.com/profile_images/378800000415911023/1dfcb0313cbe1344bd6d96db5b452c5e_400x400.png",
+    "avatar": "https://pbs.twimg.com/profile_images/378800000415911023/1dfcb0313cbe1344bd6d96db5b452c5e_200x200.png",
     "style": 0,
     "category": "博客",
     "common": false
@@ -394,7 +394,19 @@
 
   
 
-
+  {
+    "title": "LintCode",
+    "url": "https://www.lintcode.com",
+    "description": "Lint Code刷题",
+    "one_title":"阶梯",
+    "one_url":"https://www.lintcode.com/ladder/#cn_company",
+    "sec_title":"剑指Offer",
+    "sec_url":"https://www.lintcode.com/ladder/6/",
+    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/c21.0.293.293a/11898937_136961113317931_2836154192123102957_n.png?_nc_cat=109&_nc_ht=scontent.fkix2-2.fna&oh=1605dde42372a9c8823cbcef7610cb40&oe=5D5CC705",
+    "style": 0,
+    "category": "算法",
+    "common": false
+  },
   {
     "title": "Leetcode",
     "url": "https://leetcode.com/problemset/all/",
@@ -428,11 +440,27 @@
     "style": 0,
     "category": "算法",
     "common": false
-  },{
+  },
+  {
     "title": "阿里iOS面试题",
     "url": "https://hit-alibaba.github.io/interview/",
     "description": "阿里iOS面试题整理",
     "avatar": "https://raw.githubusercontent.com/dashvlas/awesome-ios-interview/master/Resources/Main.png",
+    "style": 0,
+    "category": "算法",
+    "common": false
+  },
+  {
+    "title": "剑指Offer",
+    "url": "https://github.com/zhedahht/CodingInterviewChinese2",
+    "one_title":"题解",
+    "one_url":"https://github.com/gatieme/CodingInterviews",
+    "sec_title":"Java1",
+    "sec_url":"https://github.com/apachecn/awesome-algorithm/tree/master/docs/%E5%89%91%E6%8C%87offer/Java",
+    "thi_title":"Java2",
+    "thi_url":"https://github.com/ryderchan/point-to-offer-edition2",
+    "description": "阿里iOS面试题整理",
+    "avatar": "https://lintcode-media.s3.amazonaws.com/ladder/coding-interview.jpg",
     "style": 0,
     "category": "算法",
     "common": false
@@ -445,7 +473,7 @@
     "one_title" : "同类",
     "one_url": "https://github.com/bayandin/awesome-awesomeness",
     "description": "Awesome 项目列表",
-    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_400x400.jpg",
+    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_200x200.jpg",
     "style": 0,
     "category": "GitHub",
     "common": false
@@ -591,7 +619,7 @@
     "title": "IT ebooks",
     "url": "http://www.allitebooks.org/",
     "description": "IT书籍多，下载方便",
-    "avatar": "https://pbs.twimg.com/profile_images/935197078552285186/LYeaMjCo_400x400.jpg",
+    "avatar": "https://pbs.twimg.com/profile_images/935197078552285186/LYeaMjCo_200x200.jpg",
     "style": 0,
     "category": "图书",
     "common": false
@@ -600,7 +628,7 @@
     "title": "IT ebooks",
     "url": "https://www.foxebook.net/",
     "description": "IT资源丰富，下载稍麻烦",
-    "avatar": "https://pbs.twimg.com/profile_images/3712542918/e0a20cfb4126e775c06369e4d4491276_400x400.jpeg",
+    "avatar": "https://pbs.twimg.com/profile_images/3712542918/e0a20cfb4126e775c06369e4d4491276_200x200.jpeg",
     "style": 0,
     "category": "图书",
     "common": false
@@ -618,7 +646,7 @@
     "title": "古登堡项目",
     "url": "http://www.gutenberg.org/",
     "description": "公有领域书籍",
-    "avatar": "https://pbs.twimg.com/profile_images/1119345517421637632/qPSwl88-_400x400.png",
+    "avatar": "https://pbs.twimg.com/profile_images/1119345517421637632/qPSwl88-_200x200.png",
     "style": 0,
     "category": "图书",
     "common": false
@@ -627,7 +655,7 @@
     "title": "E reading",
     "url": "https://www.e-reading.pw/",
     "description": "英文书籍",
-    "avatar": "https://pbs.twimg.com/profile_images/1684600157/iereader_400x400.jpg",
+    "avatar": "https://pbs.twimg.com/profile_images/1684600157/iereader_200x200.jpg",
     "style": 0,
     "category": "图书",
     "common": false
