@@ -10,6 +10,11 @@
     "children": []
   },
   {
+    "name": "算法",
+    "icon": "calculator",
+    "children": []
+  }, 
+  {
     "name": "开发",
     "icon": "code",
     "children": [
@@ -20,11 +25,7 @@
       }
     ]
   },
-  {
-    "name": "算法",
-    "icon": "calculator",
-    "children": []
-  }, 
+
   {
     "name": "GitHub",
     "icon": "github",
