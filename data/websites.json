@@ -9,6 +9,15 @@
     "common": true
   },
   {
+    "title": "Raywenderlich",
+    "url": "https://www.raywenderlich.com",
+    "description": "Raywenderlich",
+    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/14055075_1130689040310720_998806737720796699_n.png?_nc_cat=105&_nc_ht=scontent.fkix2-1.fna&oh=d471b1493d6e49a61c8a95c9a5cbfa4e&oe=5D996389",
+    "style": 0,
+    "category": "开发",
+    "common": true
+  },
+  {
     "title": "掘金",
     "url": "https://juejin.im",
     "description": "开发者社区",
