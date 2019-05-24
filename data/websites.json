@@ -275,17 +275,6 @@
   },
   
   {
-    "title": "Awesome Swift",
-    "url":"https://github.com/matteocrippa/awesome-swift",
-    "one_title" : "同类",
-    "one_url": "https://github.com/Wolg/awesome-swift",
-    "description": "Swift列表",
-    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_200x200.jpg",
-    "style": 0,
-    "category": "开发",
-    "common": false
-  }, 
-  {
     "title": "iOS开发者",
     "url": "https://github.com/app-developers/top",
     "description": "iOS 开发者列表",
@@ -319,6 +308,28 @@
     "category": "开发",
     "common": false
   },
+  {
+    "title": "Awesome Swift",
+    "url":"https://github.com/matteocrippa/awesome-swift",
+    "one_title" : "同类",
+    "one_url": "https://github.com/Wolg/awesome-swift",
+    "description": "Swift列表",
+    "avatar": "https://pbs.twimg.com/profile_images/921015542390984704/RL5xDxIl_200x200.jpg",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  }, 
+  {
+    "title": "Swift GG",
+    "url":"swift.gg",
+    "one_title" : "Guide",
+    "one_url": "https://swiftgg.gitbook.io/swift/",
+    "description": "Swift GG翻译组",
+    "avatar": "https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-Law_TwYroharctnLUSD%2Favatar.png?generation=1553649267470994&alt=media",
+    "style": 0,
+    "category": "开发",
+    "common": false
+  }, 
 
 
 
