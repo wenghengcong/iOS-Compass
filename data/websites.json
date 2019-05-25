@@ -155,7 +155,7 @@
   {
     "title": "开发下载",
     "url": "https://developer.apple.com/download/more/",
-    "one_title":"Xcode 使用",
+    "one_title":"Xcode使用",
     "one_url":"https://help.apple.com/xcode/mac/10.2/",
     "description": "苹果官方开发工具下载",
     "avatar": "https://developer.apple.com/assets/elements/icons/xcode/xcode-96x96_2x.png",
@@ -330,8 +330,6 @@
     "category": "开发",
     "common": false
   }, 
-
-
 
 
 
