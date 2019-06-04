@@ -637,6 +637,53 @@
 
 
 
+  {
+    "title": "新榜",
+    "url": "https://www.newrank.cn/",
+    "description": "内容产业服务平台",
+    "avatar": "https://tva1.sinaimg.cn/crop.0.0.750.750.180/005IDSGmjw8eu3xayoudhj30ku0kumxg.jpg",
+    "style": 0,
+    "category": "数据",
+    "common": false
+  },
+  {
+    "title": "清博大数据",
+    "url": "http://www.gsdata.cn/",
+    "description": "新媒体大数据平台",
+    "avatar": "https://tva3.sinaimg.cn/crop.0.0.640.640.180/64d5a9dejw8fa44yuos26j20hs0hs0tj.jpg",
+    "style": 0,
+    "category": "数据",
+    "common": false
+  },
+  {
+    "title": "七麦数据",
+    "url": "https://www.qimai.cn/",
+    "description": "ASO优化专家服务平台、国内专业的移动推广数据分析",
+    "avatar": "https://tvax4.sinaimg.cn/crop.18.69.964.964.180/006zdq0lly8g0jo19u3cjj30rs0u2tag.jpg",
+    "style": 0,
+    "category": "数据",
+    "common": false
+  },
+  {
+    "title": "蝉大师",
+    "url": "https://www.chandashi.com/",
+    "description": "APP 数据分析",
+    "avatar": "https://tva4.sinaimg.cn/crop.0.0.600.600.180/006rrYpqjw8f4d9a89r8gj30go0go75e.jpg",
+    "style": 0,
+    "category": "数据",
+    "common": false
+  },
+  {
+    "title": "App Annie",
+    "url": "https://www.appannie.com/cn/",
+    "description": "App和Web市场数据",
+    "avatar": "https://tva1.sinaimg.cn/crop.0.32.414.414.180/a9126a0fjw8ex1w5q1pe2j20bi0comy3.jpg",
+    "style": 0,
+    "category": "数据",
+    "common": false
+  },
+
+
 
   {
     "title": "兰客导航",
@@ -669,6 +716,15 @@
     "title": "导航湾",
     "url": "http://daohangwan.com/",
     "description": "按职业分类导航",
+    "avatar": "https",
+    "style": 1,
+    "category": "导航",
+    "common": false
+  },
+  {
+    "title": "米范",
+    "url": "https://www.mifar.net/",
+    "description": "运营营销导航",
     "avatar": "https",
     "style": 1,
     "category": "导航",
