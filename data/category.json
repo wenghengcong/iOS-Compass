@@ -42,6 +42,16 @@
     "children": []
   },
   {
+    "name": "运营",
+    "icon": "like",
+    "children": []
+  },
+  {
+    "name": "数据",
+    "icon": "dot-chart",
+    "children": []
+  },
+  {
     "name": "下载",
     "icon": "download",
     "children": [

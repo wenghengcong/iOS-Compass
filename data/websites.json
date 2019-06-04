@@ -578,16 +578,62 @@
     "common": false
   },
   {
-    "title": "产品运营",
-    "url": "https://github.com/LisaDziuba/Marketing-for-Engineers",
-    "description": "产品运营文章和工具",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/21558653_10155841161354421_2421754363362084748_n.jpg?_nc_cat=1&_nc_ht=scontent.fkix2-1.fna&oh=d28453c19d0efb5d36ea1222ad4a1ad1&oe=5D680D10",
+    "title": "利器",
+    "url": "https://liqi.io/",
+    "description": "创造者和他们的工具",
+    "avatar": "https://liqi.io/wp-content/uploads/2019/03/93405.png",
     "style": 0,
     "category": "产品",
     "common": false
   },
 
 
+
+  {
+    "title": "爱运营",
+    "url": "https://www.iyunying.org/",
+    "description": "爱运营，分享运营知识",
+    "avatar": "https://tva1.sinaimg.cn/crop.0.0.199.199.180/005BzMmSgw1ej6hzg1mqzj305k05kwei.jpg",
+    "style": 0,
+    "category": "运营",
+    "common": false
+  },
+  {
+    "title": "鸟哥笔记",
+    "url": "http://www.niaogebiji.com/",
+    "description": "互联网的运营推广",
+    "avatar": "https://tvax2.sinaimg.cn/crop.126.128.527.527.180/9c72e39ely8fmpbmsyqz6j20ls0lsq3s.jpg",
+    "style": 0,
+    "category": "运营",
+    "common": false
+  },
+  {
+    "title": "梅花信息",
+    "url": "http://www.meihuainfo.com",
+    "description": "给中国营销者实用的信息，知识，资源和工具",
+    "avatar": "https://tva2.sinaimg.cn/crop.0.0.180.180.180/6d7bc427jw1e8qgp5bmzyj2050050aa8.jpg",
+    "style": 0,
+    "category": "运营",
+    "common": false
+  },
+  {
+    "title": "运营狗",
+    "url": "https://www.yunyingdog.cn/",
+    "description": "专注于运营",
+    "avatar": "https://www.yunyingdog.cn/wp-content/uploads/2018/05/logo.png",
+    "style": 0,
+    "category": "运营",
+    "common": false
+  },
+  {
+    "title": "产品运营",
+    "url": "https://github.com/LisaDziuba/Marketing-for-Engineers",
+    "description": "产品运营文章和工具",
+    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/21558653_10155841161354421_2421754363362084748_n.jpg?_nc_cat=1&_nc_ht=scontent.fkix2-1.fna&oh=d28453c19d0efb5d36ea1222ad4a1ad1&oe=5D680D10",
+    "style": 0,
+    "category": "运营",
+    "common": false
+  },
 
 
 
