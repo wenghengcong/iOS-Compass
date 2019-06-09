@@ -18,6 +18,15 @@
     "common": true
   },
   {
+    "title": "Behance",
+    "url": "https://www.behance.net/",
+    "description": "展示和发现创意作品",
+    "avatar": "https://tvax1.sinaimg.cn/crop.0.0.256.256.180/725073c9ly8fmo84d3r15j20740740so.jpg",
+    "style": 0,
+    "category": "设计",
+    "common": true
+  },
+  {
     "title": "掘金",
     "url": "https://juejin.im",
     "description": "开发者社区",
@@ -521,15 +530,8 @@
     "style": 0,
     "category": "设计",
     "common": false
-  },{
-    "title": "Behance",
-    "url": "https://www.behance.net/",
-    "description": "展示和发现创意作品",
-    "avatar": "https://tvax1.sinaimg.cn/crop.0.0.256.256.180/725073c9ly8fmo84d3r15j20740740so.jpg",
-    "style": 0,
-    "category": "设计",
-    "common": false
-  },{
+  },
+  {
     "title": "icon font",
     "url": "https://www.iconfont.cn/",
     "description": "矢量图标管理、交流平台",
