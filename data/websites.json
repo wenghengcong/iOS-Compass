@@ -546,14 +546,15 @@
     "common": false
   },
   {
-    "title": "icon font",
+    "title": "Icon font",
     "url": "https://www.iconfont.cn/",
     "description": "矢量图标管理、交流平台",
     "avatar": "https://tva2.sinaimg.cn/crop.0.0.698.698.180/d31a02f8gw1f93beevpi5g20jg0jgjrm.gif",
     "style": 0,
     "category": "设计",
     "common": false
-  },{
+  },
+  {
     "title": "Medium Design",
     "url": "https://medium.com/topic/design",
     "description": "Medium 设计频道",
@@ -562,8 +563,27 @@
     "category": "设计",
     "common": false
   },
+  {
+    "title": "SketchAppResource",
+    "url": "https://www.sketchappsources.com/",
+    "description": "Sketch App Resource",
+    "avatar": "https://www.sketchappsources.com/images/sketch-app-sources-rose2x.png",
+    "style": 0,
+    "category": "设计",
+    "common": false
+  },
 
+  {
+    "title": "SketchRepo",
+    "url": "https://sketchrepo.com",
+    "description": "Sketch Repo",
+    "avatar": "https://pbs.twimg.com/profile_images/795962619341500417/c07jH7QS_400x400.jpg",
+    "style": 0,
+    "category": "设计",
+    "common": false
+  },
 
+  
 
 
   {
