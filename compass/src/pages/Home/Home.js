@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
 import {
   Card,
@@ -21,11 +21,11 @@ const catURL = 'https://raw.githubusercontent.com/wenghengcong/iOS-Compass/maste
 
 const SubMenu = Menu.SubMenu;
 const {
-  Header, Footer, Sider, Content,
+  Footer, Sider, Content,
 } = Layout;
 
 
-class Home extends Component {
+class Home extends PureComponent {
 
   state = {
     allWebsite: [],     // 所有网站
@@ -34,7 +34,7 @@ class Home extends Component {
     categorySites: [],   // 分类网站
     isLoading: false,
     collapsed: false,
-  }
+  };
 
   componentDidMount() {
 
@@ -70,35 +70,35 @@ class Home extends Component {
       commonSites: common,
       categorySites: cate,
     });
-  }
+  };
 
   handleCategory = (allCategory) => {
-    if (allCategory != undefined && allCategory != null) {
+    if (allCategory !== undefined && allCategory !== null) {
       this.setState({
         allCategory: allCategory,
       });
     }
-  }
+  };
 
   handleClickScreenWidthChange = (broken) => {
     console.log(broken);
     this.setState({
       collapsed: (broken ? broken : false)
     });
-  }
+  };
 
   handleClickMenu = ({item, key, keyPath}) => {
     console.log('click', item);
     this.scrollToAnchor(key);
-  }
+  };
 
   handleClickSubMenu = (openkeys) => {
     console.log('click', openkeys);
-    if (openkeys != undefined && openkeys != null) {
+    if (openkeys !== undefined && openkeys !== null) {
       const lastClick = openkeys[openkeys.length - 1];
       this.scrollToAnchor(lastClick);
     }
-  }
+  };
 
   scrollToAnchor = (anchorName) => {
     if (anchorName) {
@@ -109,21 +109,21 @@ class Home extends Component {
         anchorElement.scrollIntoView();
       }
     }
-  }
+  };
 
   generateCategoryWebCard = (web) => {
 
-    if (web.style == undefined || web.style == null || web.style == 0) {
+    if (web.style === undefined || web.style === null || web.style === 0) {
       return <WebCard web={web}> </WebCard>
-    } else if (web.style == 1) {
+    } else if (web.style === 1) {
       return <WebTextCard web={web}> </WebTextCard>
     }
-  }
+  };
 
   generateCategoryBoard = (fatherCate, category, weibistes) => {
 
     var categoryName = category.name;
-    if (fatherCate != undefined && fatherCate != null
+    if (fatherCate !== undefined && fatherCate !== null
      && fatherCate.length > 0) {
       categoryName = fatherCate + "＞" + category.name;
     }
@@ -152,7 +152,7 @@ class Home extends Component {
     </div>;
 
     return currentCateCard;
-  }
+  };
 
   render() {
 
@@ -172,10 +172,10 @@ class Home extends Component {
     if (allCategory.length > 0) {
       menus.push(
         allCategory.map((item) => {
-          const spinItem = item.spin ? true : false;
+          const spinItem = item.spin;
           const menuChildren = item.children ? item.children : [];
           if (menuChildren.length > 0) {
-            const childMenuItems = []
+            const childMenuItems = [];
             // 如果有子菜单
             childMenuItems.push(
               menuChildren.map((child) => {
@@ -196,7 +196,7 @@ class Home extends Component {
                                         <span>{item.name}</span>
                                         </span>}>
               {childMenuItems}
-            </SubMenu>
+            </SubMenu>;
             return subMenu;
           } else {
             return <Menu.Item key={item.name}>
@@ -220,13 +220,13 @@ class Home extends Component {
         const currentCateWebs = cateWebsites.filter(web => web.category === firstLevelItem.name);
 
         const currentCateCard = this.generateCategoryBoard( "", firstLevelItem, currentCateWebs);
-        if (firstLevelItem.name !== '常用' && currentCateWebs != undefined
-          && currentCateWebs != null && currentCateWebs.length > 0) {
+        if (firstLevelItem.name !== '常用' && currentCateWebs !== undefined
+          && currentCateWebs !== null && currentCateWebs.length > 0) {
           categoryCards.push(currentCateCard);
         };
 
         // 有子分类，将构建子分类的board
-        if (firstLevelItem.children != undefined && firstLevelItem.children != null
+        if (firstLevelItem.children !== undefined && firstLevelItem.children !== null
           && firstLevelItem.children.length > 0) {
 
           firstLevelItem.children.map((child) => {
@@ -234,7 +234,7 @@ class Home extends Component {
             const childWebsites = cateWebsites.filter(web => web.category === child.name);
 
             const currentCateCard = this.generateCategoryBoard( firstLevelItem.name, child, childWebsites);
-            if (child.name !== '常用' && childWebsites != undefined
+            if (child.name !== '常用' && childWebsites !== undefined
             && childWebsites != null && childWebsites.length > 0) {
               categoryCards.push(currentCateCard);
             }
