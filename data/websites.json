@@ -563,6 +563,18 @@
     "category": "设计",
     "common": false
   },
+
+  {
+    "title": "OurSketch",
+    "url": "https://oursketch.com",
+    "description": "Sketch 分享交流",
+    "avatar": "https://oursketch.com/images/favicon.png",
+    "style": 0,
+    "category": "设计",
+    "common": false
+  },
+
+
   {
     "title": "SketchAppResource",
     "url": "https://www.sketchappsources.com/",
