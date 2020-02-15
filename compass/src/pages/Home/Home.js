@@ -38,7 +38,7 @@ class Home extends PureComponent {
   };
 
   componentDidMount() {
-
+    document.title = "疾风-iOSer导航";
     const _this = this;
     fetch(catURL)
       .then(response => response.json())
