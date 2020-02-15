@@ -1,8 +1,8 @@
 {
-  "name": "compass",
+  "name": "疾风-iOS开发者导航",
   "private": true,
   "homepage": "https://wenghengcong.github.io/iOS-Compass",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
