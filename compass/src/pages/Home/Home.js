@@ -15,6 +15,7 @@ import WebCommonCard from '../UIComponent/WebCommonCard';
 
 import styles from './Home.less';
 import WebTextCard from "../UIComponent/WebTextCard";
+import {Link} from "umi";
 
 const webURL = 'https://raw.githubusercontent.com/wenghengcong/iOS-Compass/master/data/websites.json';
 const catURL = 'https://raw.githubusercontent.com/wenghengcong/iOS-Compass/master/data/category.json';
@@ -276,8 +277,7 @@ class Home extends PureComponent {
               {categoryCards}
             </Content>
             <Footer style={{textAlign: 'center'}}>
-
-              Luci Design ©2019 Created by 翁恒丛
+              Copyright ©2019-2020 54Nemo.com
             </Footer>
           </Layout>
         </Layout>
