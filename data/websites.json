@@ -3,7 +3,7 @@
     "title": "GitHub",
     "url": "https://www.github.com",
     "description": "代码仓库",
-    "avatar": "https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-1/c26.26.429.429a/p480x480/945323_366239146811715_634589613_n.png?_nc_cat=108&_nc_ht=scontent-ams3-1.xx&oh=8ee562d074ba61b6cc06b15b5b8d7a87&oe=5D76DF9E",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/github.png?raw=true",
     "style": 0,
     "category": "开发",
     "common": true
@@ -391,7 +391,7 @@
     "one_title": "开源",
     "one_url": "https://opensource.facebook.com/#ios",
     "description": "iOS Dev",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/58818464_10158354585756729_7126855515920924672_n.png?_nc_cat=1&_nc_ht=scontent.fkix2-1.fna&oh=527fefd36dbecbfceb7c7270c2569ec7&oe=5D5A8CDB",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/facebook.png?raw=true",
     "style": 0,
     "category": "博客",
     "common": false
@@ -467,7 +467,7 @@
     "thi_title":"Java",
     "thi_url":"https://github.com/fishercoder1534/Leetcode",
     "description": "Leetcode刷题",
-    "avatar": "https://tvax2.sinaimg.cn/crop.0.0.510.510.180/e5617f77ly1fyc9jnivibj20e60e6jsa.jpg",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/github.png?raw=true",
     "style": 0,
     "category": "算法",
     "common": false
@@ -549,7 +549,7 @@
     "title": "Dribbble",
     "url": "http://dribbble.com/",
     "description": "发现设计师和创意",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/1549561_191435177719722_1946235595_n.png?_nc_cat=106&_nc_ht=scontent.fkix2-1.fna&oh=34de37a325a9c9ab58c896f69806be6c&oe=5D545E88",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/dribble.png?raw=true",
     "style": 0,
     "category": "设计",
     "common": false
