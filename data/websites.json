@@ -12,7 +12,7 @@
     "title": "语雀",
     "url": "https://www.yuque.com/login",
     "description": "语雀文档",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/14055075_1130689040310720_998806737720796699_n.png?_nc_cat=105&_nc_ht=scontent.fkix2-1.fna&oh=d471b1493d6e49a61c8a95c9a5cbfa4e&oe=5D996389",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/yuque.png?raw=true",
     "style": 0,
     "category": "开发",
     "common": true
@@ -21,7 +21,7 @@
     "title": "Raywenderlich",
     "url": "https://www.raywenderlich.com",
     "description": "Raywenderlich",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/14055075_1130689040310720_998806737720796699_n.png?_nc_cat=105&_nc_ht=scontent.fkix2-1.fna&oh=d471b1493d6e49a61c8a95c9a5cbfa4e&oe=5D996389",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/raywenderlich.png?raw=true",
     "style": 0,
     "category": "开发",
     "common": true
@@ -106,7 +106,7 @@
     "sec_url": "https://developer.apple.com/videos/topics/",
     "thi_url": "https://developer.apple.com/videos/all-videos/",
     "description": "WWDC视频",
-    "avatar": "https://scontent-ams4-1.xx.fbcdn.net/v/t1.0-1/p480x480/53882711_1576859255792177_159332811256365056_n.jpg?_nc_cat=108&_nc_ht=scontent-ams4-1.xx&oh=24a34ddfac2b8a39486e88b70f4832e4&oe=5D9358C3",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/wwdc19.png?raw=true",
     "style": 0,
     "category": "苹果专区",
     "common": false
@@ -121,7 +121,7 @@
     "sec_url": "https://developer.apple.com/videos/wwdc2017/",
     "thi_url": "https://developer.apple.com/videos/wwdc2016/",
     "description": "WWDC视频",
-    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/p480x480/18157364_906001416207131_3037268305909239585_n.jpg?_nc_cat=100&_nc_ht=scontent.fkix2-2.fna&oh=37e31889f5154844701e20e28e8ae0b2&oe=5D5ABC27",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/wwdc.png?raw=true",
     "style": 0,
     "category": "苹果专区",
     "common": false
@@ -169,7 +169,7 @@
     "title": "Apple Design",
     "url": "https://developer.apple.com/design/",
     "description": "苹果设计",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/c64.23.284.284a/296498_124245797678529_2068409284_n.jpg?_nc_cat=109&_nc_ht=scontent.fkix2-1.fna&oh=12bfa2b2f8f51197997ec858ad5b3c5c&oe=5D52A218",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/sketch.png?raw=true",
     "style": 0,
     "category": "苹果专区",
     "common": false
@@ -178,7 +178,7 @@
     "title": "HIG iOS",
     "url": "https://developer.apple.com/design/human-interface-guidelines/ios",
     "description": "人机交互指南",
-    "avatar": "https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p480x480/41884418_618307411904563_7518880867771482112_n.jpg?_nc_cat=108&_nc_ht=scontent-nrt1-1.xx&oh=2defbc8f9b8a366e1291fbf1a503399a&oe=5D61634C",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/hig_ios.png?raw=true",
     "style": 0,
     "category": "苹果专区",
     "common": false
@@ -269,7 +269,7 @@
     "title": "iOS Dev Weekly",
     "url": "https://iosdevweekly.com/",
     "description": "Development links weekly",
-    "avatar": "https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-1/p200x200/10687118_1510606245892008_5211956397054430851_n.png?_nc_cat=105&_nc_ht=scontent-ams3-1.xx&oh=4e70c15528e8cdf0711287a35a7e786d&oe=5D712EE0",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/ios_dev.png?raw=true",
     "style": 0,
     "category": "开发",
     "common": false
@@ -310,7 +310,7 @@
     "title": "iOS开发者",
     "url": "https://github.com/app-developers/top",
     "description": "iOS 开发者列表",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/46146_148729141812692_285601_n.jpg?_nc_cat=101&_nc_ht=scontent.fkix2-1.fna&oh=f57f900baf26cb300dd0e4f4c89143a8&oe=5D9CFB16",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/ios_dev.png?raw=true",
     "style": 0,
     "category": "开发",
     "common": false
@@ -318,7 +318,7 @@
     "title": "iOS学习资源",
     "url": "https://github.com/jVirus/iOS-Learning-Materials",
     "description": "iOS学习资源整理",
-    "avatar": "https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/c125.0.480.480a/p480x480/10390385_317667855071539_183047746307636535_n.jpg?_nc_cat=100&_nc_ht=scontent-nrt1-1.xx&oh=a5558efa939affce63b634a3ccbb62d3&oe=5D6557C8",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/ios_world.png?raw=true",
     "style": 0,
     "category": "开发",
     "common": false
@@ -371,7 +371,7 @@
     "title": "Medium iOS",
     "url": "https://medium.com/topic/ios-development",
     "description": "Medium iOS 开发",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/20992949_1637457056266113_1742605117344903369_n.png?_nc_cat=105&_nc_ht=scontent.fkix2-1.fna&oh=f05dab2fb469da1b9f67e19fcfb35392&oe=5D5BD573",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/medium.png?raw=true",
     "style": 0,
     "category": "博客",
     "common": false
@@ -400,7 +400,7 @@
     "title": "美团技术团队",
     "url": "https://tech.meituan.com/tags/ios.html",
     "description": "iOS 文章列表",
-    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/25299031_338025483331937_6957976230772293248_n.jpg?_nc_cat=102&_nc_ht=scontent.fkix2-2.fna&oh=11cc898c3e9cf448da91af6581c83850&oe=5D5BFB80",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/meituan.png?raw=true",
     "style": 0,
     "category": "博客",
     "common": false
@@ -452,7 +452,7 @@
     "one_url":"https://www.lintcode.com/ladder/#cn_company",
     "sec_title":"剑指Offer",
     "sec_url":"https://www.lintcode.com/ladder/6/",
-    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/c21.0.293.293a/11898937_136961113317931_2836154192123102957_n.png?_nc_cat=109&_nc_ht=scontent.fkix2-2.fna&oh=1605dde42372a9c8823cbcef7610cb40&oe=5D5CC705",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/lintcode.png?raw=true",
     "style": 0,
     "category": "算法",
     "common": false
@@ -478,7 +478,7 @@
     "one_title" : "iOS",
     "one_url": "https://github.com/MaximAbramchuck/awesome-interview-questions#ios",
     "description": "全类型的面试题",
-    "avatar": "https://scontent.fkix2-2.fna.fbcdn.net/v/t1.0-1/c7.0.165.165a/554975_374605585893904_526660118_n.jpg?_nc_cat=102&_nc_ht=scontent.fkix2-2.fna&oh=cf66ccb48828c2ffb218f9b5c5b49341&oe=5D7057A7",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/interview_2.png?raw=true",
     "style": 0,
     "category": "算法",
     "common": false
@@ -486,7 +486,7 @@
     "title": "iOS面试题",
     "url": "https://github.com/dashvlas/awesome-ios-interview",
     "description": "Awesome iOS面试题整理",
-    "avatar": "https://raw.githubusercontent.com/dashvlas/awesome-ios-interview/master/Resources/Main.png",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/interview_1.png?raw=true",
     "style": 0,
     "category": "算法",
     "common": false
@@ -495,7 +495,7 @@
     "title": "阿里iOS面试题",
     "url": "https://hit-alibaba.github.io/interview/",
     "description": "阿里iOS面试题整理",
-    "avatar": "https://raw.githubusercontent.com/dashvlas/awesome-ios-interview/master/Resources/Main.png",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/alibaba.png?raw=true",
     "style": 0,
     "category": "算法",
     "common": false
@@ -531,7 +531,7 @@
     "title": "mac开源软件",
     "url": "https://github.com/serhii-londar/open-source-mac-os-apps",
     "description": "mac开源软件",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/21558653_10155841161354421_2421754363362084748_n.jpg?_nc_cat=1&_nc_ht=scontent.fkix2-1.fna&oh=d28453c19d0efb5d36ea1222ad4a1ad1&oe=5D680D10",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/appstore.png?raw=true",
     "style": 0,
     "category": "GitHub",
     "common": false
@@ -539,7 +539,7 @@
     "title": "iOS开源软件",
     "url": "https://github.com/dkhamsing/open-source-ios-apps",
     "description": "iOS开源软件",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/21558653_10155841161354421_2421754363362084748_n.jpg?_nc_cat=1&_nc_ht=scontent.fkix2-1.fna&oh=d28453c19d0efb5d36ea1222ad4a1ad1&oe=5D680D10",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/appstore.png?raw=true",
     "style": 0,
     "category": "GitHub",
     "common": false
@@ -567,7 +567,7 @@
     "title": "Medium Design",
     "url": "https://medium.com/topic/design",
     "description": "Medium 设计频道",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/20992949_1637457056266113_1742605117344903369_n.png?_nc_cat=105&_nc_ht=scontent.fkix2-1.fna&oh=f05dab2fb469da1b9f67e19fcfb35392&oe=5D5BD573",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/medium.png?raw=true",
     "style": 0,
     "category": "设计",
     "common": false
@@ -611,7 +611,7 @@
     "title": "Product Hunt",
     "url": "https://www.producthunt.com/",
     "description": "发现产品",
-    "avatar": "https://scontent.fkix2-1.fna.fbcdn.net/v/t1.0-1/p480x480/10408560_1572472259705950_8541620573116501881_n.png?_nc_cat=109&_nc_ht=scontent.fkix2-1.fna&oh=315cca9b0a5f20110bcefffde4cc32b3&oe=5D70B538",
+    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/producthunt.png?raw=true",
     "style": 0,
     "category": "产品",
     "common": false
