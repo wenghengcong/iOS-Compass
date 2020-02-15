@@ -18,43 +18,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>commonCard</find>
-      <find>left</find>
-      <find>常用</find>
-      <find>width</find>
-      <find>to</find>
-      <find>Link</find>
-      <find>text-color-secondary</find>
-      <find>border</find>
-      <find>handleClickMenu</find>
-      <find>subm</find>
-      <find>Web</find>
-      <find>WebCa</find>
-      <find>link</find>
-      <find>@media</find>
-      <find>@sider-width</find>
-      <find>webContainer</find>
-      <find>categoryContainer</find>
-      <find>commonContainer</find>
-      <find>commonweb</find>
-      <find>150</find>
-      <find>styles</find>
-      <find>xs</find>
-      <find>lg</find>
-      <find>handleClickScreenWidthChange</find>
-      <find>categoryCard</find>
-      <find>gh</find>
-      <find>en_url</find>
-      <find>hover3ButtonFirst</find>
-      <find>generateCategoryBoard</find>
-      <find>fixed</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>desc-text-color</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -163,7 +126,7 @@
       <updated>1557653556791</updated>
       <workItem from="1557653558142" duration="2112000" />
       <workItem from="1557655743265" duration="9351000" />
-      <workItem from="1581741712979" duration="1480000" />
+      <workItem from="1581741712979" duration="1749000" />
     </task>
     <task id="LOCAL-00001" summary="optimize">
       <created>1565423482731</created>
@@ -228,21 +191,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="remove fixed" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1416" height="264" key="GridCell.Tab.0.bottom" timestamp="1581742770402">
-      <screen x="0" y="23" width="1920" height="1124" />
+    <state width="1416" height="264" key="GridCell.Tab.0.bottom" timestamp="1581743461525">
+      <screen x="0" y="23" width="1920" height="1123" />
     </state>
+    <state width="1416" height="264" key="GridCell.Tab.0.bottom/0.23.1920.1123@0.23.1920.1123" timestamp="1581743461525" />
     <state width="1416" height="264" key="GridCell.Tab.0.bottom/0.23.1920.1124@0.23.1920.1124" timestamp="1581742770402" />
-    <state width="1416" height="264" key="GridCell.Tab.0.center" timestamp="1581742770400">
-      <screen x="0" y="23" width="1920" height="1124" />
+    <state width="1416" height="264" key="GridCell.Tab.0.center" timestamp="1581743461524">
+      <screen x="0" y="23" width="1920" height="1123" />
     </state>
+    <state width="1416" height="264" key="GridCell.Tab.0.center/0.23.1920.1123@0.23.1920.1123" timestamp="1581743461524" />
     <state width="1416" height="264" key="GridCell.Tab.0.center/0.23.1920.1124@0.23.1920.1124" timestamp="1581742770400" />
-    <state width="1416" height="264" key="GridCell.Tab.0.left" timestamp="1581742770400">
-      <screen x="0" y="23" width="1920" height="1124" />
+    <state width="1416" height="264" key="GridCell.Tab.0.left" timestamp="1581743461523">
+      <screen x="0" y="23" width="1920" height="1123" />
     </state>
+    <state width="1416" height="264" key="GridCell.Tab.0.left/0.23.1920.1123@0.23.1920.1123" timestamp="1581743461523" />
     <state width="1416" height="264" key="GridCell.Tab.0.left/0.23.1920.1124@0.23.1920.1124" timestamp="1581742770400" />
-    <state width="1416" height="264" key="GridCell.Tab.0.right" timestamp="1581742770401">
-      <screen x="0" y="23" width="1920" height="1124" />
+    <state width="1416" height="264" key="GridCell.Tab.0.right" timestamp="1581743461524">
+      <screen x="0" y="23" width="1920" height="1123" />
     </state>
+    <state width="1416" height="264" key="GridCell.Tab.0.right/0.23.1920.1123@0.23.1920.1123" timestamp="1581743461524" />
     <state width="1416" height="264" key="GridCell.Tab.0.right/0.23.1920.1124@0.23.1920.1124" timestamp="1581742770401" />
     <state x="631" y="418" key="com.intellij.ide.util.TipDialog" timestamp="1581741716323">
       <screen x="0" y="23" width="1920" height="1123" />

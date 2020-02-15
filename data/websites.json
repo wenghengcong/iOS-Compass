@@ -3,7 +3,7 @@
     "title": "GitHub",
     "url": "https://www.github.com",
     "description": "代码仓库",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/github.png?raw=true",
+    "avatar": "https://tva1.sinaimg.cn/crop.0.0.688.688.180/e55477eejw1ebp2tsqsbvj20j60j6ad6.jpg",
     "style": 0,
     "category": "开发",
     "common": true
@@ -12,7 +12,7 @@
     "title": "语雀",
     "url": "https://www.yuque.com/login",
     "description": "语雀文档",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/yuque.png?raw=true",
+    "avatar": "https://tvax2.sinaimg.cn/crop.0.0.1024.1024.180/0072p57nly1fqmfh7znnpj30sg0sgwft.jpg",
     "style": 0,
     "category": "开发",
     "common": true
@@ -21,7 +21,7 @@
     "title": "Raywenderlich",
     "url": "https://www.raywenderlich.com",
     "description": "Raywenderlich",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/raywenderlich.png?raw=true",
+    "avatar": "https://tva2.sinaimg.cn/crop.13.0.530.530.180/6f128802jw1e7xjew2avij20ga0f8gmm.jpg",
     "style": 0,
     "category": "开发",
     "common": true
@@ -106,7 +106,7 @@
     "sec_url": "https://developer.apple.com/videos/topics/",
     "thi_url": "https://developer.apple.com/videos/all-videos/",
     "description": "WWDC视频",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/wwdc19.png?raw=true",
+    "avatar": "https://tva3.sinaimg.cn/crop.0.0.180.180.180/9251ee23jw1e8qgp5bmzyj2050050aa8.jpg",
     "style": 0,
     "category": "苹果专区",
     "common": false
@@ -121,7 +121,7 @@
     "sec_url": "https://developer.apple.com/videos/wwdc2017/",
     "thi_url": "https://developer.apple.com/videos/wwdc2016/",
     "description": "WWDC视频",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/wwdc.png?raw=true",
+    "avatar": "https://pbs.twimg.com/profile_images/856454273164562432/sSTBrbQ0_reasonably_small.jpg",
     "style": 0,
     "category": "苹果专区",
     "common": false
@@ -310,7 +310,7 @@
     "title": "iOS开发者",
     "url": "https://github.com/app-developers/top",
     "description": "iOS 开发者列表",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/ios_dev.png?raw=true",
+    "avatar": "https://tvax2.sinaimg.cn/crop.0.0.751.751.180/007JvucOly8g2c9p2ycfrj30kv0kvaa7.jpg",
     "style": 0,
     "category": "开发",
     "common": false
@@ -371,7 +371,7 @@
     "title": "Medium iOS",
     "url": "https://medium.com/topic/ios-development",
     "description": "Medium iOS 开发",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/medium.png?raw=true",
+    "avatar": "https://pbs.twimg.com/profile_images/900033008685666305/c6Q38U35_reasonably_small.png",
     "style": 0,
     "category": "博客",
     "common": false
@@ -400,7 +400,7 @@
     "title": "美团技术团队",
     "url": "https://tech.meituan.com/tags/ios.html",
     "description": "iOS 文章列表",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/meituan.png?raw=true",
+    "avatar": "https://tvax3.sinaimg.cn/crop.0.0.800.800.180/6481d4ealy8g6pud68pm4g20m80m841p.gif",
     "style": 0,
     "category": "博客",
     "common": false
@@ -467,7 +467,7 @@
     "thi_title":"Java",
     "thi_url":"https://github.com/fishercoder1534/Leetcode",
     "description": "Leetcode刷题",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/github.png?raw=true",
+    "avatar": "https://tvax2.sinaimg.cn/crop.0.0.510.510.180/e5617f77ly1fyc9jnivibj20e60e6jsa.jpg",
     "style": 0,
     "category": "算法",
     "common": false
@@ -495,7 +495,7 @@
     "title": "阿里iOS面试题",
     "url": "https://hit-alibaba.github.io/interview/",
     "description": "阿里iOS面试题整理",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/alibaba.png?raw=true",
+    "avatar": "https://tvax3.sinaimg.cn/crop.93.98.413.413.180/7120778aly8g8dya64v7kj20go0go0ur.jpg",
     "style": 0,
     "category": "算法",
     "common": false
@@ -531,7 +531,7 @@
     "title": "mac开源软件",
     "url": "https://github.com/serhii-londar/open-source-mac-os-apps",
     "description": "mac开源软件",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/appstore.png?raw=true",
+    "avatar": "https://pbs.twimg.com/profile_images/941404148188061696/w25-myxT_reasonably_small.jpg",
     "style": 0,
     "category": "GitHub",
     "common": false
@@ -539,7 +539,7 @@
     "title": "iOS开源软件",
     "url": "https://github.com/dkhamsing/open-source-ios-apps",
     "description": "iOS开源软件",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/appstore.png?raw=true",
+    "avatar": "https://pbs.twimg.com/profile_images/941404148188061696/w25-myxT_reasonably_small.jpg",
     "style": 0,
     "category": "GitHub",
     "common": false
@@ -611,7 +611,7 @@
     "title": "Product Hunt",
     "url": "https://www.producthunt.com/",
     "description": "发现产品",
-    "avatar": "https://github.com/wenghengcong/iOS-Compass/blob/master/images/producthunt.png?raw=true",
+    "avatar": "https://pbs.twimg.com/profile_images/1218145268006187008/SoXh4651_reasonably_small.jpg",
     "style": 0,
     "category": "产品",
     "common": false
