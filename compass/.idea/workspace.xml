@@ -4,6 +4,8 @@
     <list default="true" id="0fefd060-1d2f-4fb8-b206-b7d433b13c32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开发文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/开发文档.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +133,7 @@
       <workItem from="1557655743265" duration="9351000" />
       <workItem from="1581741712979" duration="1749000" />
       <workItem from="1581746209321" duration="1261000" />
-      <workItem from="1581754778149" duration="788000" />
+      <workItem from="1581754778149" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="optimize">
       <created>1565423482731</created>

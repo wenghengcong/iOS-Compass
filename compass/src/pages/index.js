@@ -10,7 +10,7 @@ import Home from './Home/Home';
 export default function() {
   return (
     <div className={styles.back}>
-      <Favicon url="https://raw.githubusercontent.com/wenghengcong/iOS-Compass/master/images/favicon.ico" />
+      <Favicon url="https://raw.githubusercontent.com/wenghengcong/iOS-Compass/master/images/logo.png" />
       <Home key='home'></Home>
     </div>
   );
