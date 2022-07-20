@@ -21,7 +21,7 @@
     "react-dom": "^16.7.0",
     "react-favicon": "0.0.16",
     "react-responsive": "^6.1.2",
-    "terser": "^3.17.0",
+    "terser": "^4.8.1",
     "umi-plugin-gh-pages": "^0.1.0"
   },
   "devDependencies": {
